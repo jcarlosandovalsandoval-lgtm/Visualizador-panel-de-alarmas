@@ -1,1 +1,0 @@
-[{"id":1,"fecha":"2026-06-06","hora":"13:29:22","dia":"SAT","evento":"PISO 2 NIVEL MECANICO SMOKE DETECTOR DATA NOT AVAILABLE","tipo":"falla","ubicacion":"PISO 2 NIVEL MECANICO"},{"id":3,"fecha":"2026
