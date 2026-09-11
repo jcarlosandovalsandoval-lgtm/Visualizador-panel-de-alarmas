@@ -1,0 +1,4556 @@
+[
+  {
+    "id": 1,
+    "fecha": "2026-06-06",
+    "hora": "13:29:22",
+    "dia": "SAT",
+    "evento": "PISO 2 NIVEL MECANICO SMOKE DETECTOR DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "PISO 2 NIVEL MECANICO"
+  },
+  {
+    "id": 2,
+    "fecha": "2026-06-06",
+    "hora": "13:29:32",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 3,
+    "fecha": "2026-06-06",
+    "hora": "13:29:33",
+    "dia": "SAT",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 4,
+    "fecha": "2026-06-06",
+    "hora": "13:29:34",
+    "dia": "SAT",
+    "evento": "PISO 2 PALANCA NIVEL MECANICO PULL STATION FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 PALANCA NIVEL MECANICO"
+  },
+  {
+    "id": 5,
+    "fecha": "2026-06-06",
+    "hora": "13:29:42",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 6,
+    "fecha": "2026-06-06",
+    "hora": "13:29:46",
+    "dia": "SAT",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 7,
+    "fecha": "2026-06-06",
+    "hora": "13:34:21",
+    "dia": "SAT",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 8,
+    "fecha": "2026-06-06",
+    "hora": "13:38:07",
+    "dia": "SAT",
+    "evento": "PISO 2 PALANCA PASILLO PONIENTE PULL STATION DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "PISO 2 PALANCA PASILLO PONIENTE"
+  },
+  {
+    "id": 9,
+    "fecha": "2026-06-06",
+    "hora": "13:38:16",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 10,
+    "fecha": "2026-06-06",
+    "hora": "13:38:17",
+    "dia": "SAT",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 11,
+    "fecha": "2026-06-06",
+    "hora": "13:38:33",
+    "dia": "SAT",
+    "evento": "PISO 2 PASILLO CONTABILIDAD Y FINANZAS SMOKE DETECTOR DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "PISO 2 PASILLO CONTABILIDAD Y FINANZAS"
+  },
+  {
+    "id": 12,
+    "fecha": "2026-06-06",
+    "hora": "13:38:36",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 13,
+    "fecha": "2026-06-06",
+    "hora": "13:38:37",
+    "dia": "SAT",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 14,
+    "fecha": "2026-06-06",
+    "hora": "13:39:07",
+    "dia": "SAT",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 15,
+    "fecha": "2026-06-06",
+    "hora": "13:43:21",
+    "dia": "SAT",
+    "evento": "PISO 2 PALANCA PASILLO PENSIONADO ION FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 PALANCA PASILLO PENSIONADO ION"
+  },
+  {
+    "id": 16,
+    "fecha": "2026-06-06",
+    "hora": "13:43:21",
+    "dia": "",
+    "evento": "FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": null
+  },
+  {
+    "id": 17,
+    "fecha": "2026-06-06",
+    "hora": "13:43:21",
+    "dia": "SAT",
+    "evento": "PISO 2 PALANCA PASILLO PENSIONADO PULL STATION FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 PALANCA PASILLO PENSIONADO"
+  },
+  {
+    "id": 18,
+    "fecha": "2026-06-06",
+    "hora": "13:43:35",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 19,
+    "fecha": "2026-06-06",
+    "hora": "13:43:38",
+    "dia": "SAT",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 20,
+    "fecha": "2026-06-06",
+    "hora": "13:43:45",
+    "dia": "SAT",
+    "evento": "PISO 2 SALA 205 PENSIONADO SMOKE DETECTOR TEST ABNORMAL",
+    "tipo": "test",
+    "ubicacion": "PISO 2 SALA 205 PENSIONADO"
+  },
+  {
+    "id": 21,
+    "fecha": "2026-06-06",
+    "hora": "13:43:45",
+    "dia": "",
+    "evento": "TEST ABNORMAL",
+    "tipo": "test",
+    "ubicacion": null
+  },
+  {
+    "id": 22,
+    "fecha": "2026-06-06",
+    "hora": "13:43:50",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 23,
+    "fecha": "2026-06-06",
+    "hora": "13:43:54",
+    "dia": "SAT",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 24,
+    "fecha": "2026-06-06",
+    "hora": "13:44:56",
+    "dia": "SAT",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 25,
+    "fecha": "2026-06-06",
+    "hora": "13:46:03",
+    "dia": "SAT",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 26,
+    "fecha": "2026-06-06",
+    "hora": "13:47:17",
+    "dia": "SAT",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 27,
+    "fecha": "2026-06-06",
+    "hora": "13:59:30",
+    "dia": "SAT",
+    "evento": "PISO 2 PALANCA PASILLO PONIENTE UNACESS PULL STATION FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 PALANCA PASILLO PONIENTE UNACESS"
+  },
+  {
+    "id": 28,
+    "fecha": "2026-06-06",
+    "hora": "13:59:30",
+    "dia": "",
+    "evento": "FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": null
+  },
+  {
+    "id": 29,
+    "fecha": "2026-06-06",
+    "hora": "13:59:32",
+    "dia": "SAT",
+    "evento": "PISO 2 PASILLO UNACESS SMOKE DETECTOR TEST ABNORMAL",
+    "tipo": "test",
+    "ubicacion": "PISO 2 PASILLO UNACESS"
+  },
+  {
+    "id": 30,
+    "fecha": "2026-06-06",
+    "hora": "13:59:32",
+    "dia": "",
+    "evento": "TEST ABNORMAL",
+    "tipo": "test",
+    "ubicacion": null
+  },
+  {
+    "id": 31,
+    "fecha": "2026-06-06",
+    "hora": "13:59:38",
+    "dia": "",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 32,
+    "fecha": "2026-06-06",
+    "hora": "13:59:41",
+    "dia": "SAT",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 33,
+    "fecha": "2026-06-06",
+    "hora": "13:59:41",
+    "dia": "",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 34,
+    "fecha": "2026-06-06",
+    "hora": "14:01:11",
+    "dia": "SAT",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 35,
+    "fecha": "2026-06-06",
+    "hora": "14:09:20",
+    "dia": "SAT",
+    "evento": "PISO 2 PASILLO UNACESS SMOKE DETECTOR TEST ABNORMAL",
+    "tipo": "test",
+    "ubicacion": "PISO 2 PASILLO UNACESS"
+  },
+  {
+    "id": 36,
+    "fecha": "2026-06-06",
+    "hora": "14:09:20",
+    "dia": "",
+    "evento": "TEST ABNORMAL",
+    "tipo": "test",
+    "ubicacion": null
+  },
+  {
+    "id": 37,
+    "fecha": "2026-06-06",
+    "hora": "14:09:24",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT CRT PORT 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 38,
+    "fecha": "2026-06-06",
+    "hora": "14:09:26",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 3",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 39,
+    "fecha": "2026-06-06",
+    "hora": "14:09:34",
+    "dia": "SAT",
+    "evento": "PISO 2 PASILLO UNACESS SMOKE DETECTOR TEST ABNORMAL",
+    "tipo": "test",
+    "ubicacion": "PISO 2 PASILLO UNACESS"
+  },
+  {
+    "id": 40,
+    "fecha": "2026-06-06",
+    "hora": "14:09:34",
+    "dia": "",
+    "evento": "TEST ABNORMAL",
+    "tipo": "test",
+    "ubicacion": null
+  },
+  {
+    "id": 41,
+    "fecha": "2026-06-06",
+    "hora": "14:09:38",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT CRT PORT 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 42,
+    "fecha": "2026-06-06",
+    "hora": "14:09:40",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 3",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 43,
+    "fecha": "2026-06-06",
+    "hora": "14:09:42",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 3",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 44,
+    "fecha": "2026-06-06",
+    "hora": "14:10:32",
+    "dia": "SAT",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 45,
+    "fecha": "2026-06-06",
+    "hora": "14:12:34",
+    "dia": "SAT",
+    "evento": "PISO 2 PASILLO AREA PROCEDIMIENTOS SMOKE DETECTOR TEST ABNORMAL",
+    "tipo": "test",
+    "ubicacion": "PISO 2 PASILLO AREA PROCEDIMIENTOS"
+  },
+  {
+    "id": 46,
+    "fecha": "2026-06-06",
+    "hora": "14:12:34",
+    "dia": "",
+    "evento": "TEST ABNORMAL",
+    "tipo": "test",
+    "ubicacion": null
+  },
+  {
+    "id": 47,
+    "fecha": "2026-06-06",
+    "hora": "14:12:40",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT CRT PORT 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 48,
+    "fecha": "2026-06-06",
+    "hora": "14:12:42",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 3",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 49,
+    "fecha": "2026-06-06",
+    "hora": "14:12:44",
+    "dia": "SAT",
+    "evento": "PISO 2 SALA ESPERA AREA PROCEDIMIENTOS SMOKE DETECTOR TEST ABNORMAL",
+    "tipo": "test",
+    "ubicacion": "PISO 2 SALA ESPERA AREA PROCEDIMIENTOS"
+  },
+  {
+    "id": 50,
+    "fecha": "2026-06-06",
+    "hora": "14:12:44",
+    "dia": "",
+    "evento": "TEST ABNORMAL",
+    "tipo": "test",
+    "ubicacion": null
+  },
+  {
+    "id": 51,
+    "fecha": "2026-06-06",
+    "hora": "14:12:47",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT CRT PORT 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 52,
+    "fecha": "2026-06-06",
+    "hora": "14:12:49",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 3",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 53,
+    "fecha": "2026-06-06",
+    "hora": "14:12:50",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 3",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 54,
+    "fecha": "2026-06-06",
+    "hora": "14:12:53",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 3",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 55,
+    "fecha": "2026-06-06",
+    "hora": "14:13:08",
+    "dia": "SAT",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 56,
+    "fecha": "2026-06-06",
+    "hora": "14:16:29",
+    "dia": "SAT",
+    "evento": "PISO 2 SALA ESPERA TOMA MUESTRA SMOKE DETECTOR TEST ABNORMAL",
+    "tipo": "test",
+    "ubicacion": "PISO 2 SALA ESPERA TOMA MUESTRA"
+  },
+  {
+    "id": 57,
+    "fecha": "2026-06-06",
+    "hora": "14:16:29",
+    "dia": "",
+    "evento": "TEST ABNORMAL",
+    "tipo": "test",
+    "ubicacion": null
+  },
+  {
+    "id": 58,
+    "fecha": "2026-06-06",
+    "hora": "14:16:33",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT CRT PORT 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 59,
+    "fecha": "2026-06-06",
+    "hora": "14:16:35",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 3",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 60,
+    "fecha": "2026-06-06",
+    "hora": "14:16:36",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 3",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 61,
+    "fecha": "2026-06-06",
+    "hora": "14:16:41",
+    "dia": "SAT",
+    "evento": "PISO 2 PALANCA PASILLO TOMA MUESTRAS PULL STATION FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 PALANCA PASILLO TOMA MUESTRAS"
+  },
+  {
+    "id": 62,
+    "fecha": "2026-06-06",
+    "hora": "14:16:41",
+    "dia": "",
+    "evento": "FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": null
+  },
+  {
+    "id": 63,
+    "fecha": "2026-06-06",
+    "hora": "14:16:56",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 64,
+    "fecha": "2026-06-06",
+    "hora": "14:17:00",
+    "dia": "SAT",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 65,
+    "fecha": "2026-06-06",
+    "hora": "14:17:00",
+    "dia": "SAT",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 66,
+    "fecha": "2026-06-06",
+    "hora": "14:17:21",
+    "dia": "SAT",
+    "evento": "PISO 2 PALANCA PASILLO TOMA MUESTRAS PULL STATION FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 PALANCA PASILLO TOMA MUESTRAS"
+  },
+  {
+    "id": 67,
+    "fecha": "2026-06-06",
+    "hora": "14:17:21",
+    "dia": "",
+    "evento": "FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": null
+  },
+  {
+    "id": 68,
+    "fecha": "2026-06-06",
+    "hora": "14:17:29",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 69,
+    "fecha": "2026-06-06",
+    "hora": "14:17:33",
+    "dia": "SAT",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 70,
+    "fecha": "2026-06-06",
+    "hora": "14:17:44",
+    "dia": "SAT",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 71,
+    "fecha": "2026-06-06",
+    "hora": "14:26:45",
+    "dia": "SAT",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL NTRY 59 16:01:34 SAT 06-JUN-26 PISO 1 FLUJO SPK SECTORES DE MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": null
+  },
+  {
+    "id": 72,
+    "fecha": "2026-06-06",
+    "hora": "14:26:45",
+    "dia": "",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 73,
+    "fecha": "2026-06-06",
+    "hora": "16:01:34",
+    "dia": "",
+    "evento": "FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": null
+  },
+  {
+    "id": 74,
+    "fecha": "2026-06-06",
+    "hora": "16:01:34",
+    "dia": "SAT",
+    "evento": "PISO 1 FLUJO SPK SECTORES DE MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 FLUJO SPK SECTORES DE MANIFOLD"
+  },
+  {
+    "id": 75,
+    "fecha": "2026-06-06",
+    "hora": "16:01:54",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1 BOMBAS PARTIDA BOMBA PRINCIPAL -26 SALA DE FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 76,
+    "fecha": "2026-06-06",
+    "hora": "16:01:54",
+    "dia": "",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 77,
+    "fecha": "2026-06-06",
+    "hora": "16:01:57",
+    "dia": "SAT",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 78,
+    "fecha": "2026-06-06",
+    "hora": "16:01:57",
+    "dia": "",
+    "evento": "FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": null
+  },
+  {
+    "id": 79,
+    "fecha": "2026-06-06",
+    "hora": "16:01:57",
+    "dia": "SAT",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 80,
+    "fecha": "2026-06-06",
+    "hora": "16:02:00",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1 O SPK SECTOR A MANIFOLD PISO 1 FLUJ FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 81,
+    "fecha": "2026-06-06",
+    "hora": "16:02:00",
+    "dia": "",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 82,
+    "fecha": "2026-06-06",
+    "hora": "16:02:03",
+    "dia": "SAT",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 83,
+    "fecha": "2026-06-06",
+    "hora": "16:04:16",
+    "dia": "",
+    "evento": "FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": null
+  },
+  {
+    "id": 84,
+    "fecha": "2026-06-06",
+    "hora": "16:04:16",
+    "dia": "SAT",
+    "evento": "PISO 1 FLUJO SPK SECTOR A MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 FLUJO SPK SECTOR A MANIFOLD"
+  },
+  {
+    "id": 85,
+    "fecha": "2026-06-06",
+    "hora": "16:04:26",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1 68 16:04:53 SAT 06-JUN-26 SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 86,
+    "fecha": "2026-06-06",
+    "hora": "16:04:26",
+    "dia": "",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 87,
+    "fecha": "2026-06-06",
+    "hora": "16:04:29",
+    "dia": "SAT",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 88,
+    "fecha": "2026-06-06",
+    "hora": "16:04:53",
+    "dia": "",
+    "evento": "FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": null
+  },
+  {
+    "id": 89,
+    "fecha": "2026-06-06",
+    "hora": "16:04:53",
+    "dia": "SAT",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 90,
+    "fecha": "2026-06-06",
+    "hora": "16:05:03",
+    "dia": "SAT",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 91,
+    "fecha": "2026-06-06",
+    "hora": "16:05:06",
+    "dia": "SAT",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 92,
+    "fecha": "2026-06-06",
+    "hora": "16:22:12",
+    "dia": "SAT",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL AREA DISTRIBUCION COCINA CASINO 26 ZOCALO SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": null
+  },
+  {
+    "id": 93,
+    "fecha": "2026-06-06",
+    "hora": "16:22:12",
+    "dia": "",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 94,
+    "fecha": "2026-06-07",
+    "hora": "12:26:56",
+    "dia": "SUN",
+    "evento": "ZOCALO AREA DISTRIBUCION COCINA CASINO SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO AREA DISTRIBUCION COCINA CASINO"
+  },
+  {
+    "id": 95,
+    "fecha": "2026-06-07",
+    "hora": "12:45:25",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 96,
+    "fecha": "2026-06-07",
+    "hora": "12:45:26",
+    "dia": "SUN",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 97,
+    "fecha": "2026-06-07",
+    "hora": "12:50:28",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 98,
+    "fecha": "2026-06-07",
+    "hora": "13:21:11",
+    "dia": "SUN",
+    "evento": "PISO 1 PALANCA PASILLO MEDICINA FISICA PULL STATION DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "PISO 1 PALANCA PASILLO MEDICINA FISICA"
+  },
+  {
+    "id": 99,
+    "fecha": "2026-06-07",
+    "hora": "13:21:29",
+    "dia": "SUN",
+    "evento": "PISO 1 PASILLO INTERNO MEDICINA FISICA SMOKE DETECTOR DATA NOT AVAILABLE ANCA PASILLO MEDICINA FISICA 01-JUN-26 PISO 1 PAL PULL STATION FIRE ALARM",
+    "tipo": "falla",
+    "ubicacion": "PISO 1 PASILLO INTERNO MEDICINA FISICA"
+  },
+  {
+    "id": 100,
+    "fecha": "2026-06-07",
+    "hora": "13:21:29",
+    "dia": "SUN",
+    "evento": "PISO 1 PASILLO INTERNO MEDICINA FISICA SMOKE DETECTOR DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "PISO 1 PASILLO INTERNO MEDICINA FISICA"
+  },
+  {
+    "id": 101,
+    "fecha": "2026-06-07",
+    "hora": "13:22:36",
+    "dia": "SUN",
+    "evento": "PISO 1 PALANCA PASILLO MEDICINA FISICA PULL STATION FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 PALANCA PASILLO MEDICINA FISICA"
+  },
+  {
+    "id": 102,
+    "fecha": "2026-06-07",
+    "hora": "13:22:50",
+    "dia": "SUN",
+    "evento": "PISO 1 PALANCA PASILLO MEDICINA FISICA PULL STATION FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 PALANCA PASILLO MEDICINA FISICA"
+  },
+  {
+    "id": 103,
+    "fecha": "2026-06-07",
+    "hora": "13:24:02",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL MS ACKNOWLEDGED AT NODE 17-JUN-26 FIRE ALAR",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 104,
+    "fecha": "2026-06-07",
+    "hora": "13:24:02",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 105,
+    "fecha": "2026-06-07",
+    "hora": "13:24:03",
+    "dia": "SUN",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 106,
+    "fecha": "2026-06-07",
+    "hora": "13:24:13",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 107,
+    "fecha": "2026-06-07",
+    "hora": "13:24:31",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 108,
+    "fecha": "2026-06-07",
+    "hora": "13:24:36",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL 85 13:27:24 SUN 07-JUN-26 PISO 1 ESTACIONAMIE CAMILLAS CAE ADULTOS SMOKE DETECTOR DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": null
+  },
+  {
+    "id": 109,
+    "fecha": "2026-06-07",
+    "hora": "13:24:36",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 110,
+    "fecha": "2026-06-07",
+    "hora": "13:27:24",
+    "dia": "SUN",
+    "evento": "PISO 1 ESTACIONAMIE CAMILLAS CAE ADULTOS SMOKE DETECTOR DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "PISO 1 ESTACIONAMIE CAMILLAS CAE ADULTOS"
+  },
+  {
+    "id": 111,
+    "fecha": "2026-06-07",
+    "hora": "13:27:28",
+    "dia": "SUN",
+    "evento": "PISO 1 PALANCA PASILLO CAE ADULTOS PULL STATION DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "PISO 1 PALANCA PASILLO CAE ADULTOS"
+  },
+  {
+    "id": 112,
+    "fecha": "2026-06-07",
+    "hora": "13:28:04",
+    "dia": "SUN",
+    "evento": "PISO 1 PALANCA PASILLO CAE ADULTOS PULL STATION FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 PALANCA PASILLO CAE ADULTOS"
+  },
+  {
+    "id": 113,
+    "fecha": "2026-06-07",
+    "hora": "13:29:12",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 114,
+    "fecha": "2026-06-07",
+    "hora": "13:29:13",
+    "dia": "SUN",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 115,
+    "fecha": "2026-06-07",
+    "hora": "13:29:16",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 116,
+    "fecha": "2026-06-07",
+    "hora": "13:33:17",
+    "dia": "SUN",
+    "evento": "PISO 1 PASILLO INTERNO TRABAJO SOCIAL SMOKE DETECTOR DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "PISO 1 PASILLO INTERNO TRABAJO SOCIAL"
+  },
+  {
+    "id": 117,
+    "fecha": "2026-06-07",
+    "hora": "13:34:00",
+    "dia": "SUN",
+    "evento": "PISO 1 SERVICIO DE ATENCION AL USUARIO OT AVAILABLE SMOKE DETECTOR DATA N",
+    "tipo": "falla",
+    "ubicacion": "PISO 1 SERVICIO DE ATENCION AL USUARIO OT AVAILABLE"
+  },
+  {
+    "id": 118,
+    "fecha": "2026-06-07",
+    "hora": "13:34:00",
+    "dia": "SUN",
+    "evento": "PISO 1 SERVICIO DE ATENCION AL USUARIO SMOKE DETECTOR DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "PISO 1 SERVICIO DE ATENCION AL USUARIO"
+  },
+  {
+    "id": 119,
+    "fecha": "2026-06-07",
+    "hora": "13:36:36",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 120,
+    "fecha": "2026-06-07",
+    "hora": "13:36:38",
+    "dia": "SUN",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 121,
+    "fecha": "2026-06-07",
+    "hora": "13:36:39",
+    "dia": "SUN",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL 26 SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 122,
+    "fecha": "2026-06-07",
+    "hora": "13:36:39",
+    "dia": "SUN",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 123,
+    "fecha": "2026-06-07",
+    "hora": "13:36:42",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 124,
+    "fecha": "2026-06-07",
+    "hora": "13:38:06",
+    "dia": "SUN",
+    "evento": "PISO 1 PALANCA PASILLO INTERNO DIALISIS PULL STATION DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "PISO 1 PALANCA PASILLO INTERNO DIALISIS"
+  },
+  {
+    "id": 125,
+    "fecha": "2026-06-07",
+    "hora": "13:38:14",
+    "dia": "SUN",
+    "evento": "PISO 1 PASILLO INTERNO UNIDAD DIALISIS SMOKE DETECTOR DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "PISO 1 PASILLO INTERNO UNIDAD DIALISIS"
+  },
+  {
+    "id": 126,
+    "fecha": "2026-06-07",
+    "hora": "13:40:22",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 127,
+    "fecha": "2026-06-07",
+    "hora": "13:40:23",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 128,
+    "fecha": "2026-06-07",
+    "hora": "13:40:23",
+    "dia": "SUN",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 129,
+    "fecha": "2026-06-07",
+    "hora": "13:40:24",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL TRY 102 13:40:23 SUN 07-JUN-26 FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 130,
+    "fecha": "2026-06-07",
+    "hora": "13:40:24",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 131,
+    "fecha": "2026-06-07",
+    "hora": "13:40:26",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 132,
+    "fecha": "2026-06-07",
+    "hora": "13:50:46",
+    "dia": "SUN",
+    "evento": "ZOCALO CASA ACOGIDA PALANCA COCINA COMED PULL STATION DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "ZOCALO CASA ACOGIDA PALANCA COCINA COMED"
+  },
+  {
+    "id": 133,
+    "fecha": "2026-06-07",
+    "hora": "13:51:00",
+    "dia": "SUN",
+    "evento": "PISO 1 CASA ACOGIDA PASILLO HABITACIONES SMOKE DETECTOR DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "PISO 1 CASA ACOGIDA PASILLO HABITACIONES"
+  },
+  {
+    "id": 134,
+    "fecha": "2026-06-07",
+    "hora": "13:51:05",
+    "dia": "SUN",
+    "evento": "ZOCALO CASA ACOGIDA PALANCA COCINA COMED PULL STATION FIRE ALARM ANELY 107 13:51:30 SUN 07-JUN-26 EXTERNAL ACK REQUESTS SENT AT MAIN P",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO CASA ACOGIDA PALANCA COCINA COMED"
+  },
+  {
+    "id": 135,
+    "fecha": "2026-06-07",
+    "hora": "13:51:05",
+    "dia": "SUN",
+    "evento": "ZOCALO CASA ACOGIDA PALANCA COCINA COMED PULL STATION FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO CASA ACOGIDA PALANCA COCINA COMED"
+  },
+  {
+    "id": 136,
+    "fecha": "2026-06-07",
+    "hora": "13:51:30",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 137,
+    "fecha": "2026-06-07",
+    "hora": "13:51:31",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 138,
+    "fecha": "2026-06-07",
+    "hora": "13:51:31",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 139,
+    "fecha": "2026-06-07",
+    "hora": "13:51:31",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL RY 111 13:51:32 SUN 07-JUN-26 FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 140,
+    "fecha": "2026-06-07",
+    "hora": "13:51:32",
+    "dia": "SUN",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 141,
+    "fecha": "2026-06-07",
+    "hora": "13:51:33",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 142,
+    "fecha": "2026-06-07",
+    "hora": "14:22:48",
+    "dia": "SUN",
+    "evento": "ZOCALO PASILLO HOSPITALIZA UHCIP ADULTO SMOKE DETECTOR DATA NOT AVAILABLE 26 ZOCALO PASILLO INTERNO HOSP UHCIP ADULTO SMOKE DETECTOR DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "ZOCALO PASILLO HOSPITALIZA UHCIP ADULTO"
+  },
+  {
+    "id": 143,
+    "fecha": "2026-06-07",
+    "hora": "14:22:48",
+    "dia": "SUN",
+    "evento": "ZOCALO PASILLO HOSPITALIZA UHCIP ADULTO SMOKE DETECTOR DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "ZOCALO PASILLO HOSPITALIZA UHCIP ADULTO"
+  },
+  {
+    "id": 144,
+    "fecha": "2026-06-07",
+    "hora": "14:23:26",
+    "dia": "SUN",
+    "evento": "ZOCALO PASILLO INTERNO HOSP UHCIP ADULTO SMOKE DETECTOR DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "ZOCALO PASILLO INTERNO HOSP UHCIP ADULTO"
+  },
+  {
+    "id": 145,
+    "fecha": "2026-06-07",
+    "hora": "14:27:35",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 146,
+    "fecha": "2026-06-07",
+    "hora": "14:27:36",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL 14:27:37 SUN 07-JUN-26 FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 147,
+    "fecha": "2026-06-07",
+    "hora": "14:27:36",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 148,
+    "fecha": "2026-06-07",
+    "hora": "14:27:37",
+    "dia": "SUN",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 149,
+    "fecha": "2026-06-07",
+    "hora": "14:27:39",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 150,
+    "fecha": "2026-06-07",
+    "hora": "14:32:30",
+    "dia": "SUN",
+    "evento": "ZOCALO PALANCA PASILLO ANATOMIA PATOLOGI PULL STATION DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "ZOCALO PALANCA PASILLO ANATOMIA PATOLOGI"
+  },
+  {
+    "id": 151,
+    "fecha": "2026-06-07",
+    "hora": "14:32:36",
+    "dia": "SUN",
+    "evento": "ZOCALO PASILLO AREA ANATOMIA PATOLOGICA SMOKE DETECTOR TEST ABNORMAL",
+    "tipo": "test",
+    "ubicacion": "ZOCALO PASILLO AREA ANATOMIA PATOLOGICA"
+  },
+  {
+    "id": 152,
+    "fecha": "2026-06-07",
+    "hora": "14:32:57",
+    "dia": "SUN",
+    "evento": "ZOCALO PASILLO INTERNO CENTRAL ALIMENTAC SMOKE DETECTOR TEST ABNORMAL",
+    "tipo": "test",
+    "ubicacion": "ZOCALO PASILLO INTERNO CENTRAL ALIMENTAC"
+  },
+  {
+    "id": 153,
+    "fecha": "2026-06-07",
+    "hora": "14:33:09",
+    "dia": "SUN",
+    "evento": "ZOCALO PASILLO INTERNO CENTRAL ALIMENTAC SMOKE DETECTOR TEST ABNORMAL",
+    "tipo": "test",
+    "ubicacion": "ZOCALO PASILLO INTERNO CENTRAL ALIMENTAC"
+  },
+  {
+    "id": 154,
+    "fecha": "2026-06-07",
+    "hora": "14:35:16",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 155,
+    "fecha": "2026-06-07",
+    "hora": "14:35:16",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL MS ACKNOWLEDGED AT NODE 107-JUN-26 FIRE ALAR",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 156,
+    "fecha": "2026-06-07",
+    "hora": "14:35:17",
+    "dia": "SUN",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 157,
+    "fecha": "2026-06-07",
+    "hora": "14:35:20",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 158,
+    "fecha": "2026-06-07",
+    "hora": "14:36:04",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 159,
+    "fecha": "2026-06-07",
+    "hora": "14:40:11",
+    "dia": "SUN",
+    "evento": "ZOCALO PASILLO MANTENIMIENTO SMOKE DETECTOR DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "ZOCALO PASILLO MANTENIMIENTO"
+  },
+  {
+    "id": 160,
+    "fecha": "2026-06-07",
+    "hora": "14:40:19",
+    "dia": "SUN",
+    "evento": "ZOCALO PALANCA PASILLO VESTIDORES PERSON PULL STATION DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "ZOCALO PALANCA PASILLO VESTIDORES PERSON"
+  },
+  {
+    "id": 161,
+    "fecha": "2026-06-07",
+    "hora": "14:41:17",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 162,
+    "fecha": "2026-06-07",
+    "hora": "14:41:17",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 163,
+    "fecha": "2026-06-07",
+    "hora": "14:41:17",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL 18 SUN 07-JUN-26 EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 164,
+    "fecha": "2026-06-07",
+    "hora": "14:41:18",
+    "dia": "SUN",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 165,
+    "fecha": "2026-06-07",
+    "hora": "14:41:18",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 166,
+    "fecha": "2026-06-07",
+    "hora": "14:41:20",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 167,
+    "fecha": "2026-06-07",
+    "hora": "14:42:53",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 168,
+    "fecha": "2026-06-07",
+    "hora": "14:43:53",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 169,
+    "fecha": "2026-06-07",
+    "hora": "14:47:24",
+    "dia": "SUN",
+    "evento": "ZOCALO PALANCA PASILLO MANTENIMIENTO PULL STATION DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "ZOCALO PALANCA PASILLO MANTENIMIENTO"
+  },
+  {
+    "id": 170,
+    "fecha": "2026-06-07",
+    "hora": "14:47:35",
+    "dia": "SUN",
+    "evento": "ZOCALO PASILLO MOVILIZACION AMBULANCIAS SMOKE DETECTOR DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "ZOCALO PASILLO MOVILIZACION AMBULANCIAS"
+  },
+  {
+    "id": 171,
+    "fecha": "2026-06-07",
+    "hora": "14:48:23",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 172,
+    "fecha": "2026-06-07",
+    "hora": "14:48:23",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 173,
+    "fecha": "2026-06-07",
+    "hora": "14:48:24",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 174,
+    "fecha": "2026-06-07",
+    "hora": "14:48:24",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL 44 14:48:24 SUN 07-JUN-26 FIRE ALARMS ACKNOWLEDGED AT NODE 1 SUN 07-JUN-26 SYSTEM RESET REQUESTED AT MAIN PANEL 6 SYSTEM RESET REQUESTED AT MAIN PANEL n OR CTRL-X to abortt Scree",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 175,
+    "fecha": "2026-06-07",
+    "hora": "14:48:24",
+    "dia": "SUN",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 176,
+    "fecha": "2026-06-07",
+    "hora": "14:48:26",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 177,
+    "fecha": "2026-06-07",
+    "hora": "14:48:28",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 178,
+    "fecha": "2026-06-07",
+    "hora": "17:09:44",
+    "dia": "SUN",
+    "evento": "ZOCALO FLUJO SPK SECTOR A MANIFOLD TA NOT AVAILABLE MONITOR ZONE DA RY 151 17:12:16 SUN 07-JUN-26 EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "falla",
+    "ubicacion": null
+  },
+  {
+    "id": 179,
+    "fecha": "2026-06-07",
+    "hora": "17:09:44",
+    "dia": "SUN",
+    "evento": "ZOCALO FLUJO SPK SECTOR A MANIFOLD FIRE MONITOR ZONE DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "ZOCALO FLUJO SPK SECTOR A MANIFOLD"
+  },
+  {
+    "id": 180,
+    "fecha": "2026-06-07",
+    "hora": "17:12:16",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 181,
+    "fecha": "2026-06-07",
+    "hora": "17:12:17",
+    "dia": "SUN",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1 01-JUN-26 SYSTEM RESET REQUESTED AT MAIN PANEL UJO SPK B Y REAS MANIFOLD 01-JUN-26 ZOCALO FL FIRE MONITOR ZONE DATA NOT AVAILABLE BOMBA PRINCIPAL 18 SUN 07-JUN-26 SALA DE BOMBAS PARTIDA FIRE MONITOR ZONE DATA NOT AVAILABLE 07-JUN-26 EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 182,
+    "fecha": "2026-06-07",
+    "hora": "17:12:17",
+    "dia": "SUN",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 183,
+    "fecha": "2026-06-07",
+    "hora": "17:12:20",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 184,
+    "fecha": "2026-06-07",
+    "hora": "17:13:27",
+    "dia": "SUN",
+    "evento": "ZOCALO FLUJO SPK B Y REAS MANIFOLD FIRE MONITOR ZONE DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "ZOCALO FLUJO SPK B Y REAS MANIFOLD"
+  },
+  {
+    "id": 185,
+    "fecha": "2026-06-07",
+    "hora": "17:16:18",
+    "dia": "SUN",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 186,
+    "fecha": "2026-06-07",
+    "hora": "17:18:11",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 187,
+    "fecha": "2026-06-07",
+    "hora": "17:18:12",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 188,
+    "fecha": "2026-06-07",
+    "hora": "17:18:12",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL 159 17:18:12 SUN 07-JUN-26 FIRE ALARMS ACKNOWLEDGED AT NODE 1 GED AT NODE 01:13:00 SUN 07-JUN-26 FIRE ALARMS ACKNOWLED RESET REQUESTED AT MAIN PANELUN-26 SYSTEM next Screen OR CTRL-X to abort",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 189,
+    "fecha": "2026-06-07",
+    "hora": "17:18:12",
+    "dia": "SUN",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 190,
+    "fecha": "2026-06-07",
+    "hora": "17:18:13",
+    "dia": "SUN",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 191,
+    "fecha": "2026-06-07",
+    "hora": "17:18:16",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 192,
+    "fecha": "2026-06-07",
+    "hora": "17:18:53",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL 17:19:31 SUN 07-JUN-26 ZOCALO FLUJO SPK SECTORES DE MANIFOLD FIRE MONITOR ZONE DATA NOT AVAILABLE 64 17:19:36 SUN 07-JUN-26 SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL IRE ALARM FIRE MONITOR ZONE F",
+    "tipo": "falla",
+    "ubicacion": null
+  },
+  {
+    "id": 193,
+    "fecha": "2026-06-07",
+    "hora": "17:18:53",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 194,
+    "fecha": "2026-06-07",
+    "hora": "17:19:31",
+    "dia": "SUN",
+    "evento": "ZOCALO FLUJO SPK SECTORES DE MANIFOLD FIRE MONITOR ZONE DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "ZOCALO FLUJO SPK SECTORES DE MANIFOLD"
+  },
+  {
+    "id": 195,
+    "fecha": "2026-06-07",
+    "hora": "17:19:36",
+    "dia": "SUN",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 196,
+    "fecha": "2026-06-07",
+    "hora": "17:19:37",
+    "dia": "SUN",
+    "evento": "ZOCALO FLUJO SPK SECTORES DE MANIFOLD FIRE ALARM OR ZONE ALO FLUJO SPK SECTORES DE MANIFOLD ZOC FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO FLUJO SPK SECTORES DE MANIFOLD"
+  },
+  {
+    "id": 197,
+    "fecha": "2026-06-07",
+    "hora": "17:19:37",
+    "dia": "SUN",
+    "evento": "ZOCALO FLUJO SPK SECTORES DE MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO FLUJO SPK SECTORES DE MANIFOLD"
+  },
+  {
+    "id": 198,
+    "fecha": "2026-06-07",
+    "hora": "17:19:41",
+    "dia": "SUN",
+    "evento": "ZOCALO FLUJO SPK SECTORES DE MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO FLUJO SPK SECTORES DE MANIFOLD"
+  },
+  {
+    "id": 199,
+    "fecha": "2026-06-07",
+    "hora": "17:19:47",
+    "dia": "SUN",
+    "evento": "ZOCALO FLUJO SPK SECTORES DE MANIFOLD ITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO FLUJO SPK SECTORES DE MANIFOLD ITOR ZONE"
+  },
+  {
+    "id": 200,
+    "fecha": "2026-06-07",
+    "hora": "17:19:47",
+    "dia": "SUN",
+    "evento": "ZOCALO FLUJO SPK SECTORES DE MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO FLUJO SPK SECTORES DE MANIFOLD"
+  },
+  {
+    "id": 201,
+    "fecha": "2026-06-07",
+    "hora": "17:19:49",
+    "dia": "SUN",
+    "evento": "ZOCALO FLUJO SPK SECTORES DE MANIFOLD TOR ZONE FIRE ALARM ZOCALO FLUJO SPK SECTORES DE MANIFOLD E FIRE ALARM ZON ENT AT MAIN PANEL SUN 07-JUN-26 EXTERNAL ACK REQUESTS S AT MAIN PANEL22:51 SUN 07-JUN-26 EXTERNAL ACK REQUESTS SENT",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO FLUJO SPK SECTORES DE MANIFOLD TOR ZONE"
+  },
+  {
+    "id": 202,
+    "fecha": "2026-06-07",
+    "hora": "17:19:49",
+    "dia": "SUN",
+    "evento": "ZOCALO FLUJO SPK SECTORES DE MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO FLUJO SPK SECTORES DE MANIFOLD"
+  },
+  {
+    "id": 203,
+    "fecha": "2026-06-07",
+    "hora": "17:19:51",
+    "dia": "SUN",
+    "evento": "ZOCALO FLUJO SPK SECTORES DE MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO FLUJO SPK SECTORES DE MANIFOLD"
+  },
+  {
+    "id": 204,
+    "fecha": "2026-06-07",
+    "hora": "17:22:50",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 205,
+    "fecha": "2026-06-07",
+    "hora": "17:22:51",
+    "dia": "SUN",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 206,
+    "fecha": "2026-06-07",
+    "hora": "17:22:51",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 207,
+    "fecha": "2026-06-07",
+    "hora": "17:22:54",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 208,
+    "fecha": "2026-06-08",
+    "hora": "17:32:24",
+    "dia": "MON",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL NTRY 175 17:34:43 MON 08-JUN-26 SYSTEM RESET REQUESTED AT MAIN PANEL MON 08-JUN-26 SYSTEM RESET REQUESTED AT MAIN PANEL MON 08-JUN-26 SYSTEM RESET REQUESTED AT MAIN PANEL SYSTEM RESET REQUESTED AT MAIN PANEL ESTED AT MAIN PANEL MON 08-JUN-26 SYSTEM RESET REQU",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 209,
+    "fecha": "2026-06-08",
+    "hora": "17:32:24",
+    "dia": "MON",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 210,
+    "fecha": "2026-06-08",
+    "hora": "17:34:43",
+    "dia": "MON",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 211,
+    "fecha": "2026-06-08",
+    "hora": "17:35:19",
+    "dia": "MON",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 212,
+    "fecha": "2026-06-08",
+    "hora": "17:35:21",
+    "dia": "MON",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL 1 day, 11:23:00 MON 08-JUN-26 SYSTEM RESET REQUESTED AT MAIN PANEL RESET REQUESTED AT MAIN PANELUN-26 SYSTEM STED AT MAIN PANEL MON 08-JUN-26 SYSTEM RESET REQUE",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 213,
+    "fecha": "2026-06-08",
+    "hora": "17:35:21",
+    "dia": "MON",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 214,
+    "fecha": "2026-06-08",
+    "hora": "17:35:23",
+    "dia": "MON",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 215,
+    "fecha": "2026-06-08",
+    "hora": "17:41:10",
+    "dia": "MON",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL 08-JUN-26 ALARM SILENCE REQUESTED AT MAIN PANEL ESTED AT MAIN PANEL MON 08-JUN",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 216,
+    "fecha": "2026-06-08",
+    "hora": "17:41:10",
+    "dia": "MON",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 217,
+    "fecha": "2026-06-08",
+    "hora": "18:28:06",
+    "dia": "MON",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 218,
+    "fecha": "2026-06-08",
+    "hora": "18:28:10",
+    "dia": "MON",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 219,
+    "fecha": "2026-06-09",
+    "hora": "09:03:34",
+    "dia": "TUE",
+    "evento": "PISO 1 KITCHENETTE FACILITADOR INTERCULT SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 KITCHENETTE FACILITADOR INTERCULT"
+  },
+  {
+    "id": 220,
+    "fecha": "2026-06-09",
+    "hora": "09:03:42",
+    "dia": "TUE",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 221,
+    "fecha": "2026-06-09",
+    "hora": "09:03:43",
+    "dia": "TUE",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 222,
+    "fecha": "2026-06-09",
+    "hora": "09:08:15",
+    "dia": "TUE",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL NTRY 192 11:47:53 WED 10-JUN-26 ZOCALO AREA DISTRIBUCION COCINA CASINO ETECTOR FIRE ALARM ANELY 193 11:47:59 WED 10-JUN-26 EXTERNAL ACK REQUESTS SENT AT MAIN P",
+    "tipo": "alarma",
+    "ubicacion": null
+  },
+  {
+    "id": 223,
+    "fecha": "2026-06-09",
+    "hora": "09:08:15",
+    "dia": "TUE",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 224,
+    "fecha": "2026-06-10",
+    "hora": "11:47:53",
+    "dia": "WED",
+    "evento": "ZOCALO AREA DISTRIBUCION COCINA CASINO SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO AREA DISTRIBUCION COCINA CASINO"
+  },
+  {
+    "id": 225,
+    "fecha": "2026-06-10",
+    "hora": "11:47:59",
+    "dia": "WED",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 226,
+    "fecha": "2026-06-10",
+    "hora": "11:48:00",
+    "dia": "WED",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 227,
+    "fecha": "2026-06-10",
+    "hora": "11:48:26",
+    "dia": "WED",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL IA6 09:51:41 THU 11-JUN-26 PISO 1 CARROS TRANSITO DISPENSA FARMAC SMOKE DETECTOR FIRE ALARM UN-26 EXTERNAL ACK REQUESTS SENT AT MAIN PANEL THU 11-JUN-26 FIRE ALARMS ACKNOWLEDGED AT NODE 1 UESTED AT MAIN PANEL THU 11-JUN-26 SYSTEM RESET",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 228,
+    "fecha": "2026-06-10",
+    "hora": "11:48:26",
+    "dia": "WED",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 229,
+    "fecha": "2026-06-11",
+    "hora": "09:51:41",
+    "dia": "THU",
+    "evento": "PISO 1 CARROS TRANSITO DISPENSA FARMACIA SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 CARROS TRANSITO DISPENSA FARMACIA"
+  },
+  {
+    "id": 230,
+    "fecha": "2026-06-11",
+    "hora": "09:51:49",
+    "dia": "THU",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 231,
+    "fecha": "2026-06-11",
+    "hora": "09:51:50",
+    "dia": "THU",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 232,
+    "fecha": "2026-06-11",
+    "hora": "09:55:38",
+    "dia": "THU",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 233,
+    "fecha": "2026-06-12",
+    "hora": "14:13:27",
+    "dia": "FRI",
+    "evento": "PISO 1 KITCHENETTE CENTRAL DISTRIBUCION MOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 KITCHENETTE CENTRAL DISTRIBUCION MOKE DETECTOR"
+  },
+  {
+    "id": 234,
+    "fecha": "2026-06-12",
+    "hora": "14:13:27",
+    "dia": "FRI",
+    "evento": "PISO 1 KITCHENETTE CENTRAL DISTRIBUCION SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 KITCHENETTE CENTRAL DISTRIBUCION"
+  },
+  {
+    "id": 235,
+    "fecha": "2026-06-12",
+    "hora": "14:13:33",
+    "dia": "FRI",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL FRI 12-JUN-26 FIRE ALARMS ACKNOWLEDGED AT NODE 1 RESET REQUESTED AT MAIN PANELJUN-26 SYSTEM",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 236,
+    "fecha": "2026-06-12",
+    "hora": "14:13:33",
+    "dia": "FRI",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 237,
+    "fecha": "2026-06-12",
+    "hora": "14:13:34",
+    "dia": "FRI",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 238,
+    "fecha": "2026-06-12",
+    "hora": "14:27:44",
+    "dia": "FRI",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 239,
+    "fecha": "2026-06-15",
+    "hora": "10:35:29",
+    "dia": "MON",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 240,
+    "fecha": "2026-06-17",
+    "hora": "08:44:55",
+    "dia": "WED",
+    "evento": "PISO 1 CARROS TRANSITO DISPENSA FARMACIA SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 CARROS TRANSITO DISPENSA FARMACIA"
+  },
+  {
+    "id": 241,
+    "fecha": "2026-06-17",
+    "hora": "08:45:02",
+    "dia": "WED",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 242,
+    "fecha": "2026-06-17",
+    "hora": "08:45:02",
+    "dia": "WED",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1 8 08:45:50 WED 17-JUN-26 SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 243,
+    "fecha": "2026-06-17",
+    "hora": "08:45:02",
+    "dia": "WED",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 244,
+    "fecha": "2026-06-17",
+    "hora": "08:45:50",
+    "dia": "WED",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 245,
+    "fecha": "2026-06-18",
+    "hora": "12:32:53",
+    "dia": "THU",
+    "evento": "ZOCALO AREA DISTRIBUCION COCINA CASINO FIRE ALARM TECTOR AT MAIN PANEL33:04 THU 18-JUN-26 EXTERNAL ACK REQUESTS SENT",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO AREA DISTRIBUCION COCINA CASINO"
+  },
+  {
+    "id": 246,
+    "fecha": "2026-06-18",
+    "hora": "12:32:53",
+    "dia": "THU",
+    "evento": "ZOCALO AREA DISTRIBUCION COCINA CASINO SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO AREA DISTRIBUCION COCINA CASINO"
+  },
+  {
+    "id": 247,
+    "fecha": "2026-06-18",
+    "hora": "12:33:04",
+    "dia": "THU",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1 TEM RESET REQUESTED AT MAIN PANEL26 SYS",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 248,
+    "fecha": "2026-06-18",
+    "hora": "12:33:04",
+    "dia": "THU",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 249,
+    "fecha": "2026-06-18",
+    "hora": "12:33:04",
+    "dia": "THU",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 250,
+    "fecha": "2026-06-18",
+    "hora": "12:35:56",
+    "dia": "THU",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 251,
+    "fecha": "2026-06-18",
+    "hora": "19:09:05",
+    "dia": "THU",
+    "evento": "PISO 1 PASILLO INTERNO PACIENTE CRITICO SMOKE DETECTOR FIRE ALARM NT AT MAIN PANEL5 THU 18-JUN-26 EXTERNAL ACK REQUESTS SE",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 PASILLO INTERNO PACIENTE CRITICO"
+  },
+  {
+    "id": 252,
+    "fecha": "2026-06-18",
+    "hora": "19:09:05",
+    "dia": "THU",
+    "evento": "PISO 1 PASILLO INTERNO PACIENTE CRITICO SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 PASILLO INTERNO PACIENTE CRITICO"
+  },
+  {
+    "id": 253,
+    "fecha": "2026-06-18",
+    "hora": "19:09:15",
+    "dia": "THU",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 254,
+    "fecha": "2026-06-18",
+    "hora": "19:09:15",
+    "dia": "THU",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 255,
+    "fecha": "2026-06-18",
+    "hora": "19:24:49",
+    "dia": "THU",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 256,
+    "fecha": "2026-06-18",
+    "hora": "19:28:53",
+    "dia": "THU",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 257,
+    "fecha": "2026-06-18",
+    "hora": "20:15:37",
+    "dia": "THU",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL 18-JUN-26 SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 258,
+    "fecha": "2026-06-18",
+    "hora": "20:15:37",
+    "dia": "THU",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 259,
+    "fecha": "2026-06-18",
+    "hora": "20:15:53",
+    "dia": "THU",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 260,
+    "fecha": "2026-06-18",
+    "hora": "20:16:32",
+    "dia": "THU",
+    "evento": "PISO 1 PASILLO INTERNO PACIENTE CRITICO SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 PASILLO INTERNO PACIENTE CRITICO"
+  },
+  {
+    "id": 261,
+    "fecha": "2026-06-18",
+    "hora": "20:16:41",
+    "dia": "THU",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 262,
+    "fecha": "2026-06-18",
+    "hora": "20:16:41",
+    "dia": "THU",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 263,
+    "fecha": "2026-06-18",
+    "hora": "20:17:05",
+    "dia": "THU",
+    "evento": "PISO 1 PASILLO INTERNO PACIENTE CRITICO FIRE ALARM ECTOR :13 THU 18-JUN-26 EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 PASILLO INTERNO PACIENTE CRITICO"
+  },
+  {
+    "id": 264,
+    "fecha": "2026-06-18",
+    "hora": "20:17:05",
+    "dia": "THU",
+    "evento": "PISO 1 PASILLO INTERNO PACIENTE CRITICO SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 PASILLO INTERNO PACIENTE CRITICO"
+  },
+  {
+    "id": 265,
+    "fecha": "2026-06-18",
+    "hora": "20:17:13",
+    "dia": "THU",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1 EQUESTED AT MAIN PANELTHU 18-JUN-26 SYSTEM RESET R 04-JUN-26 ZOCALO ESTAR PERSONAL ESTERILIZACION DETECTOR FIRE ALARM AT MAIN PANEL19:23 WED 24-JUN-26 EXTERNAL ACK REQUESTS SENT LEDGED AT NODE 1 WED 24-JUN-26 FIRE ALARMS ACKNOW",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 266,
+    "fecha": "2026-06-18",
+    "hora": "20:17:13",
+    "dia": "THU",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 267,
+    "fecha": "2026-06-18",
+    "hora": "20:17:13",
+    "dia": "THU",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 268,
+    "fecha": "2026-06-18",
+    "hora": "20:18:08",
+    "dia": "THU",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 269,
+    "fecha": "2026-06-24",
+    "hora": "09:19:14",
+    "dia": "WED",
+    "evento": "ZOCALO ESTAR PERSONAL ESTERILIZACION SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO ESTAR PERSONAL ESTERILIZACION"
+  },
+  {
+    "id": 270,
+    "fecha": "2026-06-24",
+    "hora": "09:19:23",
+    "dia": "WED",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 271,
+    "fecha": "2026-06-24",
+    "hora": "09:19:24",
+    "dia": "WED",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 272,
+    "fecha": "2026-06-24",
+    "hora": "09:27:57",
+    "dia": "WED",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 273,
+    "fecha": "2026-06-25",
+    "hora": "09:11:24",
+    "dia": "THU",
+    "evento": "PISO 2 BANO PERSONAL PASILLO ORIENTE SMOKE DETECTOR FIRE ALARM :35 THU 25-JUN-26 EXTERNAL ACK REQUESTS SENT AT MAIN PANEL 1NTRY 233 09:11:35 THU 25-JUN-26 FIRE ALARMS ACKNOWLEDGED AT NODE abort RETURN for next Screen OR CTRL-X to",
+    "tipo": "reconocida",
+    "ubicacion": "PISO 2 BANO PERSONAL PASILLO ORIENTE"
+  },
+  {
+    "id": 274,
+    "fecha": "2026-06-25",
+    "hora": "09:11:24",
+    "dia": "THU",
+    "evento": "PISO 2 BANO PERSONAL PASILLO ORIENTE SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 BANO PERSONAL PASILLO ORIENTE"
+  },
+  {
+    "id": 275,
+    "fecha": "2026-06-25",
+    "hora": "09:11:35",
+    "dia": "THU",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 276,
+    "fecha": "2026-06-25",
+    "hora": "09:11:35",
+    "dia": "THU",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 277,
+    "fecha": "2026-06-25",
+    "hora": "09:13:04",
+    "dia": "THU",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL TERILIZ35 12:51:23 THU 02-JUL-26 ZOCALO LAVADO DESCONTAMINACION ES SMOKE DETECTOR FIRE ALARM 01-JUL-26 EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "alarma",
+    "ubicacion": null
+  },
+  {
+    "id": 278,
+    "fecha": "2026-06-25",
+    "hora": "09:13:04",
+    "dia": "THU",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 279,
+    "fecha": "2026-07-02",
+    "hora": "12:51:23",
+    "dia": "THU",
+    "evento": "ZOCALO LAVADO DESCONTAMINACION ESTERILIZ SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO LAVADO DESCONTAMINACION ESTERILIZ"
+  },
+  {
+    "id": 280,
+    "fecha": "2026-07-02",
+    "hora": "12:51:33",
+    "dia": "THU",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 281,
+    "fecha": "2026-07-02",
+    "hora": "12:51:34",
+    "dia": "THU",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1 N PANEL38 13:05:59 THU 02-JUL-26 SYSTEM RESET REQUESTED AT MAI TAR MEDICOS AREA PABELLONES 01-JUL-26 PISO 1 ES SMOKE DETECTOR FIRE ALARM 240 11:33:14 MON 06-JUL-26 EXTERNAL ACK REQUESTS SENT AT MAIN PANEL MON 06-JUL-26 FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 282,
+    "fecha": "2026-07-02",
+    "hora": "12:51:34",
+    "dia": "THU",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 283,
+    "fecha": "2026-07-02",
+    "hora": "13:05:59",
+    "dia": "THU",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 284,
+    "fecha": "2026-07-06",
+    "hora": "11:33:04",
+    "dia": "MON",
+    "evento": "PISO 1 ESTAR MEDICOS AREA PABELLONES SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 ESTAR MEDICOS AREA PABELLONES"
+  },
+  {
+    "id": 285,
+    "fecha": "2026-07-06",
+    "hora": "11:33:14",
+    "dia": "MON",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 286,
+    "fecha": "2026-07-06",
+    "hora": "11:33:14",
+    "dia": "MON",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 287,
+    "fecha": "2026-07-06",
+    "hora": "11:33:58",
+    "dia": "MON",
+    "evento": "PISO 1 ESTAR MEDICOS AREA PABELLONES SMOKE DETECTOR FIRE ALARM AT MAIN PANEL4:08 MON 06-JUL-26 EXTERNAL ACK REQUESTS SENT DE 1 244 11:34:08 MON 06-JUL-26 FIRE ALARMS ACKNOWLEDGED AT NO ES 245 11:35:25 MON 06-JUL-26 PISO 1 ESTAR MEDICOS AREA PABELLON SMOKE DETECTOR FIRE ALARM",
+    "tipo": "reconocida",
+    "ubicacion": "PISO 1 ESTAR MEDICOS AREA PABELLONES"
+  },
+  {
+    "id": 288,
+    "fecha": "2026-07-06",
+    "hora": "11:33:58",
+    "dia": "MON",
+    "evento": "PISO 1 ESTAR MEDICOS AREA PABELLONES SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 ESTAR MEDICOS AREA PABELLONES"
+  },
+  {
+    "id": 289,
+    "fecha": "2026-07-06",
+    "hora": "11:34:08",
+    "dia": "MON",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 290,
+    "fecha": "2026-07-06",
+    "hora": "11:34:08",
+    "dia": "MON",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 291,
+    "fecha": "2026-07-06",
+    "hora": "11:35:25",
+    "dia": "MON",
+    "evento": "PISO 1 ESTAR MEDICOS AREA PABELLONES SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 ESTAR MEDICOS AREA PABELLONES"
+  },
+  {
+    "id": 292,
+    "fecha": "2026-07-06",
+    "hora": "11:35:35",
+    "dia": "MON",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL 11:35:35 MON 06-JUL-26 FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 293,
+    "fecha": "2026-07-06",
+    "hora": "11:35:35",
+    "dia": "MON",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 294,
+    "fecha": "2026-07-06",
+    "hora": "11:35:35",
+    "dia": "MON",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 295,
+    "fecha": "2026-07-06",
+    "hora": "11:58:24",
+    "dia": "MON",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 296,
+    "fecha": "2026-07-06",
+    "hora": "11:58:47",
+    "dia": "MON",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 297,
+    "fecha": "2026-07-07",
+    "hora": "18:11:48",
+    "dia": "TUE",
+    "evento": "PISO 3 BANO PERSONAL CUIDA BASICOS MUJER SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 3 BANO PERSONAL CUIDA BASICOS MUJER"
+  },
+  {
+    "id": 298,
+    "fecha": "2026-07-07",
+    "hora": "18:11:56",
+    "dia": "TUE",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL DE 1 252 18:11:57 TUE 07-JUL-26 FIRE ALARMS ACKNOWLEDGED AT NO 07-JUL-26 SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 299,
+    "fecha": "2026-07-07",
+    "hora": "18:11:56",
+    "dia": "TUE",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 300,
+    "fecha": "2026-07-07",
+    "hora": "18:11:57",
+    "dia": "TUE",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 301,
+    "fecha": "2026-07-07",
+    "hora": "18:14:44",
+    "dia": "TUE",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 302,
+    "fecha": "2026-07-07",
+    "hora": "18:16:37",
+    "dia": "TUE",
+    "evento": "PISO 3 BANO PERSONAL CUIDA BASICOS MUJER SMOKE DETECTOR FIRE ALARM 26 EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "alarma",
+    "ubicacion": "PISO 3 BANO PERSONAL CUIDA BASICOS MUJER"
+  },
+  {
+    "id": 303,
+    "fecha": "2026-07-07",
+    "hora": "18:16:37",
+    "dia": "TUE",
+    "evento": "PISO 3 BANO PERSONAL CUIDA BASICOS MUJER SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 3 BANO PERSONAL CUIDA BASICOS MUJER"
+  },
+  {
+    "id": 304,
+    "fecha": "2026-07-07",
+    "hora": "18:17:11",
+    "dia": "TUE",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 305,
+    "fecha": "2026-07-07",
+    "hora": "18:17:12",
+    "dia": "TUE",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1 M RESET REQUESTED AT MAIN PANELL-26 SYSTE 07:45:54 WED 08-JUL-26 PISO 1 BANO CAE ADULTOS SMOKE DETECTOR FIRE ALARM",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 306,
+    "fecha": "2026-07-07",
+    "hora": "18:17:12",
+    "dia": "TUE",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 307,
+    "fecha": "2026-07-07",
+    "hora": "18:17:15",
+    "dia": "TUE",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 308,
+    "fecha": "2026-07-08",
+    "hora": "07:45:54",
+    "dia": "WED",
+    "evento": "PISO 1 BANO CAE ADULTOS SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 BANO CAE ADULTOS"
+  },
+  {
+    "id": 309,
+    "fecha": "2026-07-08",
+    "hora": "07:46:05",
+    "dia": "WED",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL KNOWLEDGED AT NODE 1 WED 08-JUL-26 FIRE ALARMS AC SET REQUESTED AT MAIN PANEL8-JUL-26 SYSTEM RE een OR CTRL-X to abortScr",
+    "tipo": "alarma",
+    "ubicacion": null
+  },
+  {
+    "id": 310,
+    "fecha": "2026-07-08",
+    "hora": "07:46:05",
+    "dia": "WED",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 311,
+    "fecha": "2026-07-08",
+    "hora": "07:46:05",
+    "dia": "WED",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 312,
+    "fecha": "2026-07-08",
+    "hora": "07:46:24",
+    "dia": "WED",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 313,
+    "fecha": "2026-07-08",
+    "hora": "15:26:54",
+    "dia": "WED",
+    "evento": "PISO 2 PALANCA PASILLO INFORMATICA PULL STATION FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 PALANCA PASILLO INFORMATICA"
+  },
+  {
+    "id": 314,
+    "fecha": "2026-07-08",
+    "hora": "15:27:12",
+    "dia": "WED",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 315,
+    "fecha": "2026-07-08",
+    "hora": "15:27:12",
+    "dia": "WED",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 316,
+    "fecha": "2026-07-08",
+    "hora": "15:30:09",
+    "dia": "WED",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 317,
+    "fecha": "2026-07-10",
+    "hora": "12:20:12",
+    "dia": "FRI",
+    "evento": "ZOCALO CASA ACOGIDA COMEDOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO CASA ACOGIDA COMEDOR"
+  },
+  {
+    "id": 318,
+    "fecha": "2026-07-10",
+    "hora": "12:20:12",
+    "dia": "FRI",
+    "evento": "ZOCALO CASA ACOGIDA COMEDOR SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO CASA ACOGIDA COMEDOR"
+  },
+  {
+    "id": 319,
+    "fecha": "2026-07-10",
+    "hora": "12:20:22",
+    "dia": "FRI",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 320,
+    "fecha": "2026-07-10",
+    "hora": "12:20:23",
+    "dia": "FRI",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 321,
+    "fecha": "2026-07-10",
+    "hora": "12:27:50",
+    "dia": "FRI",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL PONIENTE ESPECIA ODONTOLON 12-JUL-26 PISO 2 PASILLO SMOKE DETECTOR FIRE ALARM 6 EXTERNAL ACK REQUESTS SENT AT MAIN PANEL IRE ALARMS ACKNOWLEDGED AT NODE 16 F ESTED AT MAIN PANEL SUN 12-JUL-26 SYSTEM RESET REQU NIENTE ESPECIA ODONTOLOTUE 21-JUL-26 PISO 2 PASILLO PO ALARM SMOKE DETECTOR FIRE T MAIN PANEL:13:56 TUE 21-JUL-26 EXTERNAL ACK REQUESTS SENT A TRL-X to abortor next Screen OR C rvice Port",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 322,
+    "fecha": "2026-07-10",
+    "hora": "12:27:50",
+    "dia": "FRI",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 323,
+    "fecha": "2026-07-12",
+    "hora": "14:55:19",
+    "dia": "SUN",
+    "evento": "PISO 2 PASILLO PONIENTE ESPECIA ODONTOLO SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 PASILLO PONIENTE ESPECIA ODONTOLO"
+  },
+  {
+    "id": 324,
+    "fecha": "2026-07-12",
+    "hora": "14:55:28",
+    "dia": "SUN",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 325,
+    "fecha": "2026-07-12",
+    "hora": "14:55:28",
+    "dia": "SUN",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 326,
+    "fecha": "2026-07-12",
+    "hora": "15:00:24",
+    "dia": "SUN",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 327,
+    "fecha": "2026-07-21",
+    "hora": "10:13:47",
+    "dia": "TUE",
+    "evento": "PISO 2 PASILLO PONIENTE ESPECIA ODONTOLO SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 PASILLO PONIENTE ESPECIA ODONTOLO"
+  },
+  {
+    "id": 328,
+    "fecha": "2026-07-21",
+    "hora": "10:13:56",
+    "dia": "TUE",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 329,
+    "fecha": "2026-07-21",
+    "hora": "10:13:56",
+    "dia": "TUE",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 330,
+    "fecha": "2026-07-21",
+    "hora": "10:20:49",
+    "dia": "TUE",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 331,
+    "fecha": "2026-07-23",
+    "hora": "12:21:08",
+    "dia": "THU",
+    "evento": "PISO 2 PASILLO PONIENTE ESPECIA ODONTOLO SMOKE DETECTOR FIRE ALARM THU 23-JUL-26 EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 PASILLO PONIENTE ESPECIA ODONTOLO"
+  },
+  {
+    "id": 332,
+    "fecha": "2026-07-23",
+    "hora": "12:21:08",
+    "dia": "THU",
+    "evento": "PISO 2 PASILLO PONIENTE ESPECIA ODONTOLO SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 PASILLO PONIENTE ESPECIA ODONTOLO"
+  },
+  {
+    "id": 333,
+    "fecha": "2026-07-23",
+    "hora": "12:24:35",
+    "dia": "THU",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 334,
+    "fecha": "2026-07-23",
+    "hora": "12:25:03",
+    "dia": "THU",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 335,
+    "fecha": "2026-07-23",
+    "hora": "12:25:26",
+    "dia": "THU",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 336,
+    "fecha": "2026-07-23",
+    "hora": "12:25:39",
+    "dia": "THU",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 337,
+    "fecha": "2026-07-23",
+    "hora": "12:25:47",
+    "dia": "THU",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL SET REQUESTED AT MAIN PANEL3-JUL-26 SYSTEM RE 06:26:00 THU 23-JUL-26 EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 338,
+    "fecha": "2026-07-23",
+    "hora": "12:25:47",
+    "dia": "THU",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 339,
+    "fecha": "2026-07-23",
+    "hora": "12:25:50",
+    "dia": "THU",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 340,
+    "fecha": "2026-07-23",
+    "hora": "12:26:26",
+    "dia": "THU",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 341,
+    "fecha": "2026-07-23",
+    "hora": "12:26:31",
+    "dia": "THU",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 342,
+    "fecha": "2026-07-23",
+    "hora": "12:27:42",
+    "dia": "THU",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL 288 12:28:12 THU 23-JUL-26 EXTERNAL ACK REQUESTS SENT AT MAIN PANEL 9 12:28:48 THU 23-JUL-26 EXTERNAL ACK REQUESTS SENT AT MAIN PANEL THU 23-JUL-26 EXTERNAL ACK REQUESTS SENT AT MAIN PANEL UL-26 EXTERNAL ACK REQUESTS SENT AT MAIN PANEL 26 SYSTEM RESET REQUESTED AT MAIN PANEL OR CTRL-X to abortext Screen",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 343,
+    "fecha": "2026-07-23",
+    "hora": "12:27:42",
+    "dia": "THU",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 344,
+    "fecha": "2026-07-23",
+    "hora": "12:28:12",
+    "dia": "THU",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 345,
+    "fecha": "2026-07-23",
+    "hora": "12:28:48",
+    "dia": "THU",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 346,
+    "fecha": "2026-07-23",
+    "hora": "12:29:38",
+    "dia": "THU",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 347,
+    "fecha": "2026-07-23",
+    "hora": "12:29:52",
+    "dia": "THU",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 348,
+    "fecha": "2026-07-23",
+    "hora": "12:31:40",
+    "dia": "THU",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 349,
+    "fecha": "2026-07-23",
+    "hora": "12:32:25",
+    "dia": "THU",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 350,
+    "fecha": "2026-07-28",
+    "hora": "12:19:45",
+    "dia": "TUE",
+    "evento": "PISO 2 PALANCA PASILLO ADQUISI Y ABASTEC PULL STATION DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "PISO 2 PALANCA PASILLO ADQUISI Y ABASTEC"
+  },
+  {
+    "id": 351,
+    "fecha": "2026-07-28",
+    "hora": "12:19:52",
+    "dia": "TUE",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 352,
+    "fecha": "2026-07-28",
+    "hora": "12:19:53",
+    "dia": "TUE",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1 ESET REQUESTED AT MAIN PANEL-JUL-26 SYSTEM R ZOCALO ZONA DESCARGA ESTERILIZACION SMOKE DETECTOR FIRE ALARM",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 353,
+    "fecha": "2026-07-28",
+    "hora": "12:19:53",
+    "dia": "TUE",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 354,
+    "fecha": "2026-07-28",
+    "hora": "12:20:06",
+    "dia": "TUE",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 355,
+    "fecha": "2026-07-28",
+    "hora": "16:34:42",
+    "dia": "TUE",
+    "evento": "ZOCALO ZONA DESCARGA ESTERILIZACION SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO ZONA DESCARGA ESTERILIZACION"
+  },
+  {
+    "id": 356,
+    "fecha": "2026-07-28",
+    "hora": "16:34:51",
+    "dia": "TUE",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL E 28-JUL-26 FIRE ALARMS ACKNOWLEDGED AT NODE 1 SYSTEM RESET REQUESTED AT MAIN PANEL NTRY 302 17:30:12 WED 29-JUL-26 ZOCALO ZONA DESCARGA ESTERILIZACION SMOKE DETECTOR FIRE ALARM",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 357,
+    "fecha": "2026-07-28",
+    "hora": "16:34:51",
+    "dia": "TUE",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 358,
+    "fecha": "2026-07-28",
+    "hora": "16:34:52",
+    "dia": "TUE",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 359,
+    "fecha": "2026-07-28",
+    "hora": "16:38:50",
+    "dia": "TUE",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 360,
+    "fecha": "2026-07-29",
+    "hora": "17:30:12",
+    "dia": "WED",
+    "evento": "ZOCALO ZONA DESCARGA ESTERILIZACION SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO ZONA DESCARGA ESTERILIZACION"
+  },
+  {
+    "id": 361,
+    "fecha": "2026-07-29",
+    "hora": "17:30:19",
+    "dia": "WED",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL 29-JUL-26 FIRE ALARMS ACKNOWLEDGED AT NODE 1 WED 29-JUL-26 ZOCALO ZONA DESCARGA ESTERILIZACION SMOKE DETECTOR FIRE ALARM",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 362,
+    "fecha": "2026-07-29",
+    "hora": "17:30:19",
+    "dia": "WED",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 363,
+    "fecha": "2026-07-29",
+    "hora": "17:30:20",
+    "dia": "WED",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 364,
+    "fecha": "2026-07-29",
+    "hora": "17:33:18",
+    "dia": "WED",
+    "evento": "ZOCALO ZONA DESCARGA ESTERILIZACION SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO ZONA DESCARGA ESTERILIZACION"
+  },
+  {
+    "id": 365,
+    "fecha": "2026-07-29",
+    "hora": "17:33:27",
+    "dia": "WED",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 366,
+    "fecha": "2026-07-29",
+    "hora": "17:33:28",
+    "dia": "WED",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 367,
+    "fecha": "2026-07-29",
+    "hora": "17:34:34",
+    "dia": "WED",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL TUE 04-AUG-26 PISO 3 FLUJO GABINETES RED HUMEDA FIRE MONITOR ZONE DATA NOT AVAILABLE MBAS PARTIDA BOMBA PRINCIPAL SALA DE BO FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "falla",
+    "ubicacion": null
+  },
+  {
+    "id": 368,
+    "fecha": "2026-07-29",
+    "hora": "17:34:34",
+    "dia": "WED",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 369,
+    "fecha": "2026-08-04",
+    "hora": "17:43:48",
+    "dia": "TUE",
+    "evento": "PISO 3 FLUJO GABINETES RED HUMEDA FIRE MONITOR ZONE DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "PISO 3 FLUJO GABINETES RED HUMEDA"
+  },
+  {
+    "id": 370,
+    "fecha": "2026-08-04",
+    "hora": "17:43:53",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 371,
+    "fecha": "2026-08-04",
+    "hora": "17:44:20",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS FLUJO ACTIVO SALA BOMBAS FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS FLUJO ACTIVO SALA BOMBAS"
+  },
+  {
+    "id": 372,
+    "fecha": "2026-08-04",
+    "hora": "17:46:06",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL IRE MONITOR ZONE FIRE ALARM 13 17:46:12 TUE 04-AUG-26 SALA DE BOMBAS FLUJO ACTIVO SALA BOMBAS IRE ALARM FIRE MONITOR ZONE F RED HUMEDA 22 TUE 04-AUG-26 PISO 3 FLUJO GABINETES FIRE ALARM FIRE MONITOR ZONE UESTS SENT AT MAIN PANELE 04-AUG-26 EXTERNAL ACK REQ LEDGED AT NODE 1 TUE 04-AUG-26 FIRE ALARMS ACKNOW KNOWLEDGED AT NODE 1 TUE 04-AUG-26 FIRE ALARMS AC",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL IRE MONITOR ZONE"
+  },
+  {
+    "id": 373,
+    "fecha": "2026-08-04",
+    "hora": "17:46:06",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 374,
+    "fecha": "2026-08-04",
+    "hora": "17:46:12",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS FLUJO ACTIVO SALA BOMBAS FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS FLUJO ACTIVO SALA BOMBAS"
+  },
+  {
+    "id": 375,
+    "fecha": "2026-08-04",
+    "hora": "17:49:22",
+    "dia": "TUE",
+    "evento": "PISO 3 FLUJO GABINETES RED HUMEDA FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 3 FLUJO GABINETES RED HUMEDA"
+  },
+  {
+    "id": 376,
+    "fecha": "2026-08-04",
+    "hora": "17:49:27",
+    "dia": "TUE",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 377,
+    "fecha": "2026-08-04",
+    "hora": "17:49:27",
+    "dia": "TUE",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 378,
+    "fecha": "2026-08-04",
+    "hora": "17:49:44",
+    "dia": "TUE",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 379,
+    "fecha": "2026-08-04",
+    "hora": "17:50:16",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 380,
+    "fecha": "2026-08-04",
+    "hora": "17:51:28",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 381,
+    "fecha": "2026-08-04",
+    "hora": "17:51:34",
+    "dia": "TUE",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 382,
+    "fecha": "2026-08-04",
+    "hora": "17:52:42",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL ONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL ONITOR ZONE"
+  },
+  {
+    "id": 383,
+    "fecha": "2026-08-04",
+    "hora": "17:52:42",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 384,
+    "fecha": "2026-08-04",
+    "hora": "17:52:55",
+    "dia": "TUE",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL AUG-26 PISO 3 FLUJO GABINETES RED HUMEDA FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 385,
+    "fecha": "2026-08-04",
+    "hora": "17:52:55",
+    "dia": "TUE",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 386,
+    "fecha": "2026-08-04",
+    "hora": "17:53:37",
+    "dia": "TUE",
+    "evento": "PISO 3 FLUJO GABINETES RED HUMEDA FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 3 FLUJO GABINETES RED HUMEDA"
+  },
+  {
+    "id": 387,
+    "fecha": "2026-08-04",
+    "hora": "17:54:19",
+    "dia": "TUE",
+    "evento": "PISO 3 FLUJO SPK SECTORES B C MANIFOLD FIRE MONITOR ZONE DATA NOT AVAILABLE 326 17:55:06 TUE 04-AUG-26 SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE ALARM FIRE MONITOR ZONE AT MAIN PANEL55:46 TUE 04-AUG-26 ALARM SILENCE REQUESTED OMBAS PARTIDA BOMBA PRINCIPAL AUG-26 SALA DE B FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "falla",
+    "ubicacion": "PISO 3 FLUJO SPK SECTORES B C MANIFOLD"
+  },
+  {
+    "id": 388,
+    "fecha": "2026-08-04",
+    "hora": "17:54:19",
+    "dia": "TUE",
+    "evento": "PISO 3 FLUJO SPK SECTORES B C MANIFOLD FIRE MONITOR ZONE DATA NOT AVAILABLE",
+    "tipo": "falla",
+    "ubicacion": "PISO 3 FLUJO SPK SECTORES B C MANIFOLD"
+  },
+  {
+    "id": 389,
+    "fecha": "2026-08-04",
+    "hora": "17:55:06",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 390,
+    "fecha": "2026-08-04",
+    "hora": "17:55:46",
+    "dia": "TUE",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 391,
+    "fecha": "2026-08-04",
+    "hora": "17:56:38",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 392,
+    "fecha": "2026-08-04",
+    "hora": "17:59:25",
+    "dia": "TUE",
+    "evento": "PISO 2 FLUJO GAB SECTORES ABC MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 FLUJO GAB SECTORES ABC MANIFOLD"
+  },
+  {
+    "id": 393,
+    "fecha": "2026-08-04",
+    "hora": "18:00:54",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL OR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL OR ZONE"
+  },
+  {
+    "id": 394,
+    "fecha": "2026-08-04",
+    "hora": "18:00:54",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 395,
+    "fecha": "2026-08-04",
+    "hora": "18:02:26",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM TUE 04-AUG-26 SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 396,
+    "fecha": "2026-08-04",
+    "hora": "18:02:26",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 397,
+    "fecha": "2026-08-04",
+    "hora": "18:04:54",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 398,
+    "fecha": "2026-08-04",
+    "hora": "18:05:07",
+    "dia": "TUE",
+    "evento": "PISO 2 FLUJO SPK SECTORES FGHI MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 FLUJO SPK SECTORES FGHI MANIFOLD"
+  },
+  {
+    "id": 399,
+    "fecha": "2026-08-04",
+    "hora": "18:05:08",
+    "dia": "TUE",
+    "evento": "PISO 2 FLUJO GAB SECTORES ABC MANIFOLD RE ALARM FIRE MONITOR ZONE FI 18:06:10 TUE 04-AUG-26 SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL E ALARM FIRE MONITOR ZONE FIR",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 FLUJO GAB SECTORES ABC MANIFOLD RE ALARM"
+  },
+  {
+    "id": 400,
+    "fecha": "2026-08-04",
+    "hora": "18:05:08",
+    "dia": "TUE",
+    "evento": "PISO 2 FLUJO GAB SECTORES ABC MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 FLUJO GAB SECTORES ABC MANIFOLD"
+  },
+  {
+    "id": 401,
+    "fecha": "2026-08-04",
+    "hora": "18:06:10",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 402,
+    "fecha": "2026-08-04",
+    "hora": "18:06:40",
+    "dia": "TUE",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 403,
+    "fecha": "2026-08-04",
+    "hora": "18:06:41",
+    "dia": "TUE",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 404,
+    "fecha": "2026-08-04",
+    "hora": "18:06:41",
+    "dia": "TUE",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 405,
+    "fecha": "2026-08-04",
+    "hora": "18:06:42",
+    "dia": "TUE",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1 S ACKNOWLEDGED AT NODE 1AUG-26 FIRE ALARM DE 1 339 18:06:41 TUE 04-AUG-26 FIRE ALARMS ACKNOWLEDGED AT NO",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 406,
+    "fecha": "2026-08-04",
+    "hora": "18:06:42",
+    "dia": "TUE",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 407,
+    "fecha": "2026-08-04",
+    "hora": "18:07:20",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 408,
+    "fecha": "2026-08-04",
+    "hora": "18:08:38",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 409,
+    "fecha": "2026-08-04",
+    "hora": "18:11:11",
+    "dia": "TUE",
+    "evento": "PISO 2 FLUJO SPK SECTOR C MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 FLUJO SPK SECTOR C MANIFOLD"
+  },
+  {
+    "id": 410,
+    "fecha": "2026-08-04",
+    "hora": "18:12:06",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE ALARM FIRE MONITOR ZONE TIDA BOMBA PRINCIPAL TUE 04-AUG-26 SALA DE BOMBAS PAR FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 411,
+    "fecha": "2026-08-04",
+    "hora": "18:12:06",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 412,
+    "fecha": "2026-08-04",
+    "hora": "18:13:34",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 413,
+    "fecha": "2026-08-04",
+    "hora": "18:13:35",
+    "dia": "TUE",
+    "evento": "PISO 2 FLUJO SPK SECTOR B MANIFOLD ONITOR ZONE FIRE ALARM 26 PISO 1 FLUJO GAB SECTORES CDEFGHI MANIFO FIRE MONITOR ZONE FIRE ALARM MBA PRINCIPAL 00:25:00 TUE 04-AUG-26 SALA DE BOMBAS PARTIDA BO FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 FLUJO SPK SECTOR B MANIFOLD ONITOR ZONE"
+  },
+  {
+    "id": 414,
+    "fecha": "2026-08-04",
+    "hora": "18:13:35",
+    "dia": "TUE",
+    "evento": "PISO 2 FLUJO SPK SECTOR B MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 FLUJO SPK SECTOR B MANIFOLD"
+  },
+  {
+    "id": 415,
+    "fecha": "2026-08-04",
+    "hora": "18:19:07",
+    "dia": "TUE",
+    "evento": "PISO 1 FLUJO GAB SECTORES CDEFGHI MANIFO FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 FLUJO GAB SECTORES CDEFGHI MANIFO"
+  },
+  {
+    "id": 416,
+    "fecha": "2026-08-04",
+    "hora": "18:20:25",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 417,
+    "fecha": "2026-08-04",
+    "hora": "18:23:05",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM o abortETURN for next Screen OR CTRL-X t",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 418,
+    "fecha": "2026-08-04",
+    "hora": "18:23:05",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 419,
+    "fecha": "2026-08-04",
+    "hora": "18:26:11",
+    "dia": "TUE",
+    "evento": "PISO 1 FLUJO SPK SECTORES FG MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 FLUJO SPK SECTORES FG MANIFOLD"
+  },
+  {
+    "id": 420,
+    "fecha": "2026-08-04",
+    "hora": "18:26:17",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM RY 351 18:27:33 TUE 04-AUG-26 SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM 1 TUE 04-AUG-26 PISO 1 FLUJO SPK SECTORES CHI MANIFOLD FIRE MONITOR ZONE FIRE ALARM CIPAL 353 18:29:29 TUE 04-AUG-26 SALA DE BOMBAS PARTIDA BOMBA PRIN FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 421,
+    "fecha": "2026-08-04",
+    "hora": "18:26:17",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 422,
+    "fecha": "2026-08-04",
+    "hora": "18:27:33",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 423,
+    "fecha": "2026-08-04",
+    "hora": "18:29:11",
+    "dia": "TUE",
+    "evento": "PISO 1 FLUJO SPK SECTORES CHI MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 FLUJO SPK SECTORES CHI MANIFOLD"
+  },
+  {
+    "id": 424,
+    "fecha": "2026-08-04",
+    "hora": "18:29:29",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 425,
+    "fecha": "2026-08-04",
+    "hora": "18:31:05",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 426,
+    "fecha": "2026-08-04",
+    "hora": "18:41:19",
+    "dia": "TUE",
+    "evento": "ZOCALO FLUJO GABINETES CDEFGHI MANIFOLD FIRE ALARM MONITOR ZONE 01:59:00 TUE 04-AUG-26 SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM GHI MANIFOLD:42:03 TUE 04-AUG-26 ZOCALO FLUJO GABINETES CDEF FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO FLUJO GABINETES CDEFGHI MANIFOLD"
+  },
+  {
+    "id": 427,
+    "fecha": "2026-08-04",
+    "hora": "18:41:19",
+    "dia": "TUE",
+    "evento": "ZOCALO FLUJO GABINETES CDEFGHI MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO FLUJO GABINETES CDEFGHI MANIFOLD"
+  },
+  {
+    "id": 428,
+    "fecha": "2026-08-04",
+    "hora": "18:41:59",
+    "dia": "TUE",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 429,
+    "fecha": "2026-08-04",
+    "hora": "18:42:03",
+    "dia": "TUE",
+    "evento": "ZOCALO FLUJO GABINETES CDEFGHI MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO FLUJO GABINETES CDEFGHI MANIFOLD"
+  },
+  {
+    "id": 430,
+    "fecha": "2026-08-04",
+    "hora": "18:42:31",
+    "dia": "TUE",
+    "evento": "ZOCALO FLUJO GABINETES CDEFGHI MANIFOLD RM FIRE MONITOR ZONE FIRE ALA MAIN PANEL18:59:28 TUE 04-AUG-26 SYSTEM RESET REQUESTED AT",
+    "tipo": "reset",
+    "ubicacion": "ZOCALO FLUJO GABINETES CDEFGHI MANIFOLD RM"
+  },
+  {
+    "id": 431,
+    "fecha": "2026-08-04",
+    "hora": "18:42:31",
+    "dia": "TUE",
+    "evento": "ZOCALO FLUJO GABINETES CDEFGHI MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO FLUJO GABINETES CDEFGHI MANIFOLD"
+  },
+  {
+    "id": 432,
+    "fecha": "2026-08-04",
+    "hora": "18:59:28",
+    "dia": "TUE",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 433,
+    "fecha": "2026-08-04",
+    "hora": "19:04:10",
+    "dia": "TUE",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL 4-AUG-26 SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 434,
+    "fecha": "2026-08-04",
+    "hora": "19:04:10",
+    "dia": "TUE",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 435,
+    "fecha": "2026-08-04",
+    "hora": "19:10:34",
+    "dia": "TUE",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 436,
+    "fecha": "2026-08-04",
+    "hora": "21:26:10",
+    "dia": "TUE",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 437,
+    "fecha": "2026-08-04",
+    "hora": "21:26:23",
+    "dia": "TUE",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 438,
+    "fecha": "2026-08-04",
+    "hora": "21:32:47",
+    "dia": "TUE",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL REQUESTED AT MAIN PANELE 04-AUG-26 ALARM SILENCE :25 TUE 04-AUG-26 SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 439,
+    "fecha": "2026-08-04",
+    "hora": "21:32:47",
+    "dia": "TUE",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 440,
+    "fecha": "2026-08-04",
+    "hora": "21:55:04",
+    "dia": "TUE",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 441,
+    "fecha": "2026-08-04",
+    "hora": "22:09:25",
+    "dia": "TUE",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 442,
+    "fecha": "2026-08-04",
+    "hora": "22:13:35",
+    "dia": "TUE",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 443,
+    "fecha": "2026-08-05",
+    "hora": "12:41:56",
+    "dia": "WED",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL :47:47 WED 05-AUG-26 ZOCALO FLUJO SPK SECTORES C H I MANIFOLD FIRE ALARM NITOR ZONE NELRY 370 12:47:56 WED 05-AUG-26 EXTERNAL ACK REQUESTS SENT AT MAIN PA",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 444,
+    "fecha": "2026-08-05",
+    "hora": "12:41:56",
+    "dia": "WED",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 445,
+    "fecha": "2026-08-05",
+    "hora": "12:47:47",
+    "dia": "WED",
+    "evento": "ZOCALO FLUJO SPK SECTORES C H I MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO FLUJO SPK SECTORES C H I MANIFOLD"
+  },
+  {
+    "id": 446,
+    "fecha": "2026-08-05",
+    "hora": "12:47:56",
+    "dia": "WED",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 447,
+    "fecha": "2026-08-05",
+    "hora": "12:47:57",
+    "dia": "WED",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 448,
+    "fecha": "2026-08-05",
+    "hora": "12:48:02",
+    "dia": "WED",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL WED 05-AUG-26 SYSTEM RESET REQUESTED AT MAIN PANEL TURN for next Screen OR CTRL-X to abort Port",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 449,
+    "fecha": "2026-08-05",
+    "hora": "12:48:02",
+    "dia": "WED",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 450,
+    "fecha": "2026-08-05",
+    "hora": "12:48:04",
+    "dia": "WED",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 451,
+    "fecha": "2026-08-05",
+    "hora": "12:48:14",
+    "dia": "WED",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 452,
+    "fecha": "2026-08-05",
+    "hora": "12:48:28",
+    "dia": "WED",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL GED AT NODE 01:31:00 WED 05-AUG-26 FIRE ALARMS ACKNOWLED WED 05-AUG-26 ZOCALO FLUJO SPK SECTORES C H I MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": null
+  },
+  {
+    "id": 453,
+    "fecha": "2026-08-05",
+    "hora": "12:48:28",
+    "dia": "WED",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 454,
+    "fecha": "2026-08-05",
+    "hora": "12:48:31",
+    "dia": "WED",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 455,
+    "fecha": "2026-08-05",
+    "hora": "12:48:48",
+    "dia": "WED",
+    "evento": "ZOCALO FLUJO SPK SECTORES C H I MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO FLUJO SPK SECTORES C H I MANIFOLD"
+  },
+  {
+    "id": 456,
+    "fecha": "2026-08-05",
+    "hora": "12:48:50",
+    "dia": "WED",
+    "evento": "ZOCALO FLUJO SPK SECTORES C H I MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO FLUJO SPK SECTORES C H I MANIFOLD"
+  },
+  {
+    "id": 457,
+    "fecha": "2026-08-05",
+    "hora": "12:49:40",
+    "dia": "WED",
+    "evento": "ZOCALO FLUJO SPK SECTORES F G MANIFOLD FIRE MONITOR ZONE FIRE ALARM UG-26 SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO FLUJO SPK SECTORES F G MANIFOLD"
+  },
+  {
+    "id": 458,
+    "fecha": "2026-08-05",
+    "hora": "12:49:40",
+    "dia": "WED",
+    "evento": "ZOCALO FLUJO SPK SECTORES F G MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO FLUJO SPK SECTORES F G MANIFOLD"
+  },
+  {
+    "id": 459,
+    "fecha": "2026-08-05",
+    "hora": "12:50:05",
+    "dia": "WED",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 460,
+    "fecha": "2026-08-05",
+    "hora": "12:50:30",
+    "dia": "WED",
+    "evento": "SALA DE BOMBAS FLUJO ACTIVO SALA BOMBAS MONITOR ZONE FIRE ALARM 12:51:17 WED 05-AUG-26 SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS FLUJO ACTIVO SALA BOMBAS MONITOR ZONE"
+  },
+  {
+    "id": 461,
+    "fecha": "2026-08-05",
+    "hora": "12:50:30",
+    "dia": "WED",
+    "evento": "SALA DE BOMBAS FLUJO ACTIVO SALA BOMBAS FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS FLUJO ACTIVO SALA BOMBAS"
+  },
+  {
+    "id": 462,
+    "fecha": "2026-08-05",
+    "hora": "12:51:17",
+    "dia": "WED",
+    "evento": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS PARTIDA BOMBA PRINCIPAL"
+  },
+  {
+    "id": 463,
+    "fecha": "2026-08-05",
+    "hora": "12:51:30",
+    "dia": "WED",
+    "evento": "SALA DE BOMBAS FLUJO ACTIVO SALA BOMBAS FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "SALA DE BOMBAS FLUJO ACTIVO SALA BOMBAS"
+  },
+  {
+    "id": 464,
+    "fecha": "2026-08-05",
+    "hora": "12:54:38",
+    "dia": "WED",
+    "evento": "ZOCALO FLUJO SPK SECTOR PELLET MANIFOLD FIRE MONITOR ZONE FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "ZOCALO FLUJO SPK SECTOR PELLET MANIFOLD"
+  },
+  {
+    "id": 465,
+    "fecha": "2026-08-05",
+    "hora": "12:57:57",
+    "dia": "WED",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 466,
+    "fecha": "2026-08-05",
+    "hora": "12:57:58",
+    "dia": "WED",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 467,
+    "fecha": "2026-08-05",
+    "hora": "12:58:02",
+    "dia": "WED",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL AIN PANEL 13:39:50 WED 05-AUG-26 SYSTEM RESET REQUESTED AT M Y 390 12:41:33 FRI 21-AUG-26 PISO 2 ESTAR FUNCIONARIOS PROCEDIMIENTOS SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": null
+  },
+  {
+    "id": 468,
+    "fecha": "2026-08-05",
+    "hora": "12:58:02",
+    "dia": "WED",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 469,
+    "fecha": "2026-08-05",
+    "hora": "13:39:50",
+    "dia": "WED",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 470,
+    "fecha": "2026-08-21",
+    "hora": "12:41:33",
+    "dia": "FRI",
+    "evento": "PISO 2 ESTAR FUNCIONARIOS PROCEDIMIENTOS SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 ESTAR FUNCIONARIOS PROCEDIMIENTOS"
+  },
+  {
+    "id": 471,
+    "fecha": "2026-08-21",
+    "hora": "12:41:49",
+    "dia": "FRI",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT CRT PORT 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 472,
+    "fecha": "2026-08-21",
+    "hora": "12:41:50",
+    "dia": "FRI",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 3 E ALARMS ACKNOWLEDGED AT CRT PORT 1 FIR",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 473,
+    "fecha": "2026-08-21",
+    "hora": "12:41:50",
+    "dia": "FRI",
+    "evento": "PISO 2 ESTAR FUNCIONARIOS PROCEDIMIENTOS SMOKE DETECTOR FIRE ALARM 6 EXTERNAL ACK REQUESTS SENT AT MAIN PANEL -26 FIRE ALARMS ACKNOWLEDGED AT NODE 1 I 21-AUG-26 PISO 2 BANO AREA ENDOSCOPIA FIRE ALARM N for next Screen OR CTRL-X to abort",
+    "tipo": "reconocida",
+    "ubicacion": "PISO 2 ESTAR FUNCIONARIOS PROCEDIMIENTOS"
+  },
+  {
+    "id": 474,
+    "fecha": "2026-08-21",
+    "hora": "12:41:50",
+    "dia": "FRI",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 3",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 475,
+    "fecha": "2026-08-21",
+    "hora": "12:41:50",
+    "dia": "FRI",
+    "evento": "PISO 2 ESTAR FUNCIONARIOS PROCEDIMIENTOS SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 ESTAR FUNCIONARIOS PROCEDIMIENTOS"
+  },
+  {
+    "id": 476,
+    "fecha": "2026-08-21",
+    "hora": "12:42:02",
+    "dia": "FRI",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 477,
+    "fecha": "2026-08-21",
+    "hora": "12:42:02",
+    "dia": "FRI",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 478,
+    "fecha": "2026-08-21",
+    "hora": "12:44:39",
+    "dia": "FRI",
+    "evento": "PISO 2 BANO AREA ENDOSCOPIA SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 2 BANO AREA ENDOSCOPIA"
+  },
+  {
+    "id": 479,
+    "fecha": "2026-08-21",
+    "hora": "12:45:02",
+    "dia": "FRI",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL NTRY 398 12:45:04 FRI 21-AUG-26 ALARM SILENCE REQUESTED AT MAIN PANEL E REQUESTED AT MAIN PANEL 21-AUG-26 ALARM SILENC 21-AUG-26 ALARM SILENCE REQUESTED AT MAIN PANEL 401 12:45:08 FRI 21-AUG-26 ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 480,
+    "fecha": "2026-08-21",
+    "hora": "12:45:02",
+    "dia": "FRI",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 481,
+    "fecha": "2026-08-21",
+    "hora": "12:45:04",
+    "dia": "FRI",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 482,
+    "fecha": "2026-08-21",
+    "hora": "12:45:06",
+    "dia": "FRI",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 483,
+    "fecha": "2026-08-21",
+    "hora": "12:45:08",
+    "dia": "FRI",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL AIN PANEL 12:45:10 FRI 21-AUG-26 ALARM SILENCE REQUESTED AT M 12 FRI 21-AUG-26 ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 484,
+    "fecha": "2026-08-21",
+    "hora": "12:45:08",
+    "dia": "FRI",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 485,
+    "fecha": "2026-08-21",
+    "hora": "12:45:10",
+    "dia": "FRI",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 486,
+    "fecha": "2026-08-21",
+    "hora": "12:45:12",
+    "dia": "FRI",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 487,
+    "fecha": "2026-08-21",
+    "hora": "12:45:24",
+    "dia": "FRI",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL ELTRY 407 12:45:28 FRI 21-AUG-26 ALARM SILENCE REQUESTED AT MAIN PAN 408 12:45:41 FRI 21-AUG-26 ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 488,
+    "fecha": "2026-08-21",
+    "hora": "12:45:24",
+    "dia": "FRI",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1 M RESET REQUESTED AT MAIN PANELG-26 SYSTE AT MAIN PANEL5:55 FRI 21-AUG-26 SYSTEM RESET REQUESTED",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 489,
+    "fecha": "2026-08-21",
+    "hora": "12:45:24",
+    "dia": "FRI",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 490,
+    "fecha": "2026-08-21",
+    "hora": "12:45:24",
+    "dia": "FRI",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 491,
+    "fecha": "2026-08-21",
+    "hora": "12:45:28",
+    "dia": "FRI",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 492,
+    "fecha": "2026-08-21",
+    "hora": "12:45:41",
+    "dia": "FRI",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 493,
+    "fecha": "2026-08-21",
+    "hora": "12:45:43",
+    "dia": "FRI",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 494,
+    "fecha": "2026-08-21",
+    "hora": "12:48:51",
+    "dia": "FRI",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 495,
+    "fecha": "2026-08-21",
+    "hora": "12:55:55",
+    "dia": "FRI",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 496,
+    "fecha": "2026-08-21",
+    "hora": "12:55:57",
+    "dia": "FRI",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL AUG-26 SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 497,
+    "fecha": "2026-08-21",
+    "hora": "12:55:57",
+    "dia": "FRI",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 498,
+    "fecha": "2026-08-21",
+    "hora": "12:56:55",
+    "dia": "FRI",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  },
+  {
+    "id": 499,
+    "fecha": "2026-08-24",
+    "hora": "07:57:40",
+    "dia": "MON",
+    "evento": "ALARM SILENCE REQUESTED AT MAIN PANEL",
+    "tipo": "silenciada",
+    "ubicacion": null
+  },
+  {
+    "id": 500,
+    "fecha": "2026-08-31",
+    "hora": "14:27:10",
+    "dia": "MON",
+    "evento": "PISO 1 BANO PUBLICO CAE INFANTIL SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 BANO PUBLICO CAE INFANTIL"
+  },
+  {
+    "id": 501,
+    "fecha": "2026-08-31",
+    "hora": "14:27:19",
+    "dia": "MON",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 502,
+    "fecha": "2026-08-31",
+    "hora": "14:27:19",
+    "dia": "MON",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 503,
+    "fecha": "2026-08-31",
+    "hora": "14:27:27",
+    "dia": "MON",
+    "evento": "PISO 1 BANO PUBLICO CAE INFANTIL SMOKE DETECTOR FIRE ALARM",
+    "tipo": "alarma",
+    "ubicacion": "PISO 1 BANO PUBLICO CAE INFANTIL"
+  },
+  {
+    "id": 504,
+    "fecha": "2026-08-31",
+    "hora": "14:27:31",
+    "dia": "MON",
+    "evento": "EXTERNAL ACK REQUESTS SENT AT MAIN PANEL",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 505,
+    "fecha": "2026-08-31",
+    "hora": "14:27:31",
+    "dia": "MON",
+    "evento": "FIRE ALARMS ACKNOWLEDGED AT NODE 1",
+    "tipo": "reconocida",
+    "ubicacion": null
+  },
+  {
+    "id": 506,
+    "fecha": "2026-08-31",
+    "hora": "14:53:41",
+    "dia": "MON",
+    "evento": "SYSTEM RESET REQUESTED AT MAIN PANEL",
+    "tipo": "reset",
+    "ubicacion": null
+  }
+]

@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/nocturne-c0bf15bd-1764-4327-b55d-70c5627a67c6/styles.css">
+<script src="_ds/nocturne-c0bf15bd-1764-4327-b55d-70c5627a67c6/_ds_bundle.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600&display=swap">
+<style>
+body { margin: 0; background: var(--color-bg); }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: var(--color-neutral-700); border-radius: var(--radius-2); }
+a { color: var(--color-accent-300); }
+a:hover { color: var(--color-accent); }
+:root {
+  --color-alarm: #e5484d;
+  --color-ok: #34d399;
+  --color-warn: #f5a623;
+  --color-info: #4d9de5;
+  --font-heading: "Oswald", "Inter", system-ui, sans-serif;
+  --font-heading-weight: 600;
+}
+.card-kicker { letter-spacing: 0.02em; text-transform: uppercase; }
+
+.hero-cover { width:100%; aspect-ratio: 2172 / 350; overflow:hidden; }
+.hero-cover img { width:100%; height:100%; object-fit:cover; object-position:center top; display:block; }
+
+@media (max-width: 860px) {
+  .mid-grid { grid-template-columns: 1fr !important; }
+}
+
+.kpi-card { display:flex; gap: var(--space-3); align-items:flex-start; padding: var(--space-4); }
+.kpi-icon { width:38px; height:38px; border-radius:50%; display:flex; align-items:center; justify-content:center; flex-shrink:0; font-size:16px; line-height:1; }
+.kpi-value { font-family: var(--font-heading); font-size: 26px; font-weight:600; line-height:1.1; }
+.kpi-delta { font-size:11px; margin-top:3px; }
+.kpi-delta.up { color: var(--color-ok); }
+.kpi-delta.down { color: var(--color-alarm); }
+.kpi-delta.flat { color: var(--color-neutral-500); }
+
+.legend-row { display:flex; align-items:center; gap:8px; font-size:12px; padding: 4px 0; }
+.legend-dot { width:8px; height:8px; border-radius:50%; flex-shrink:0; }
+.legend-label { flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+.legend-count { opacity:0.6; font-variant-numeric: tabular-nums; }
+
+.loc-row { display:flex; align-items:center; gap: var(--space-2); font-size:12.5px; padding: 5px 0; }
+.loc-label { width:112px; flex-shrink:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; opacity:0.85; }
+.loc-bar-track { flex:1; height:7px; background: var(--color-neutral-800); border-radius: var(--radius-1); overflow:hidden; }
+.loc-bar-fill { height:100%; background: var(--color-accent-500); border-radius: var(--radius-1); }
+.loc-count { width:36px; text-align:right; flex-shrink:0; font-weight:600; font-variant-numeric: tabular-nums; }
+
+.footer-bar { display:flex; align-items:center; justify-content:space-between; gap: var(--space-3); flex-wrap:wrap; padding: var(--space-4); border-top:1px solid var(--color-neutral-800); font-size:12px; }
+.footer-bar .brand { display:flex; align-items:center; gap:8px; font-weight:600; letter-spacing:0.03em; text-transform:uppercase; font-size:11.5px; }
+.footer-bar .tagline { opacity:0.6; letter-spacing:0.03em; text-transform:uppercase; font-size:11px; }
+
+.login-screen { min-height:100vh; display:flex; align-items:center; justify-content:center; padding: var(--space-4); }
+.login-card { width:100%; max-width:380px; overflow:hidden; }
+.login-cover { width:100%; aspect-ratio: 2172 / 350; object-fit:cover; object-position:center top; display:block; }
+.login-form { padding: var(--space-5); display:grid; gap: var(--space-3); }
+.login-field { display:grid; gap:4px; font-size:12px; opacity:0.85; }
+</style>
+</helmet>
+<div style="min-height: 100vh; font-family: var(--font-body); color: var(--color-text);">
+
+<sc-if value="{{ authed }}" hint-placeholder-val="{{ false }}">
+<div>
+
+  <div class="hero-cover">
+    <img src="img/portada-panel-alarmas.png" alt="Panel de Alarmas de Sistema de Detecci&oacute;n y Extinci&oacute;n de Incendio &middot; Unidad de Control Centralizado Electricidad y Corrientes D&eacute;biles" />
+  </div>
+
+  <div style="max-width: 1280px; margin: 0 auto; padding: var(--space-6) var(--space-4) var(--space-8); display: grid; gap: var(--space-6);">
+
+    <sc-if value="{{ loaded }}" hint-placeholder-val="{{ false }}">
+      <div>
+        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: var(--space-3); margin-bottom: var(--space-6);" hint-placeholder-count="6">
+          <sc-for list="{{ kpis }}" as="k" hint-placeholder-count="6">
+            <div class="card elev-sm kpi-card">
+              <div class="kpi-icon" style="background:{{ k.iconBg }}; color:{{ k.color }};">{{ k.icon }}</div>
+              <div style="min-width:0;">
+                <div class="card-kicker" style="font-size:10.5px;">{{ k.label }}</div>
+                <div class="kpi-value" style="color:{{ k.color }};">{{ k.value }}</div>
+                <div class="kpi-delta {{ k.deltaCls }}">{{ k.deltaLabel }}</div>
+              </div>
+            </div>
+          </sc-for>
+        </div>
+
+        <div style="display:grid; grid-template-columns: 1.3fr 1fr 1fr; gap: var(--space-4); margin-bottom: var(--space-6);" class="mid-grid">
+          <div class="card elev-sm" style="padding: var(--space-4);">
+            <div style="display:flex; align-items:flex-start; justify-content:space-between; flex-wrap:wrap; gap: var(--space-2);">
+              <div>
+                <div class="card-kicker">Eventos por d&iacute;a</div>
+                <div style="font-size:11px; opacity:0.5; margin-top:2px;">{{ trendRangeLabel }}</div>
+              </div>
+              <select class="input" style="width:140px; font-size:11px;" value="{{ trendDays }}" onChange="{{ onTrendDays }}">
+                <option value="30">&Uacute;ltimos 30 d&iacute;as</option>
+                <option value="90">&Uacute;ltimos 3 meses</option>
+                <option value="all">Todo el historial</option>
+              </select>
+            </div>
+            <div style="display:flex; align-items:center; gap:14px; font-size:11px; opacity:0.7; margin-top: var(--space-2);">
+              <span><span style="display:inline-block; width:8px; height:8px; border-radius:2px; background:var(--color-neutral-600); margin-right:4px;"></span>Otros eventos</span>
+              <span><span style="display:inline-block; width:8px; height:8px; border-radius:2px; background:var(--color-alarm); margin-right:4px;"></span>Alarmas</span>
+            </div>
+            <div style="display:flex; align-items:flex-end; gap:2px; height:140px; margin-top: var(--space-3); border-bottom: 1px solid var(--color-neutral-700); padding-bottom:1px;">
+              <sc-for list="{{ trend }}" as="t" hint-placeholder-count="60">
+                <div title="{{ t.title }}" style="flex:1; min-width:2px; height:100%; display:flex; flex-direction:column; justify-content:flex-end;">
+                  <div style="width:100%; height:{{ t.otrosPct }}%; background: var(--color-neutral-600); border-radius: 1px 1px 0 0;"></div>
+                  <div style="width:100%; height:{{ t.alarmaPct }}%; background: var(--color-alarm);"></div>
+                </div>
+              </sc-for>
+            </div>
+            <div style="display:flex; justify-content:space-between; margin-top: var(--space-2); font-size:11px; opacity:0.5;">
+              <span>{{ trend.0.title }}</span>
+              <span>{{ trendLastLabel }}</span>
+            </div>
+          </div>
+
+          <div class="card elev-sm" style="padding: var(--space-4);">
+            <div class="card-kicker">Eventos por tipo</div>
+            <div style="margin-top: var(--space-3);">
+              <sc-for list="{{ donutLegend }}" as="d" hint-placeholder-count="6">
+                <div class="legend-row">
+                  <span class="legend-dot" style="background:{{ d.color }};"></span>
+                  <span class="legend-label">{{ d.label }}</span>
+                  <span class="legend-count">{{ d.count }} ({{ d.pct }}%)</span>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+
+          <div class="card elev-sm" style="padding: var(--space-4);">
+            <div class="card-kicker">Eventos por ubicaci&oacute;n</div>
+            <div style="margin-top: var(--space-3);">
+              <sc-for list="{{ pisoBars }}" as="b" hint-placeholder-count="8">
+                <div class="loc-row">
+                  <span class="loc-label">{{ b.label }}</span>
+                  <span class="loc-bar-track"><span class="loc-bar-fill" style="width:{{ b.pct }}%;"></span></span>
+                  <span class="loc-count">{{ b.count }}</span>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+        </div>
+
+        <div class="card elev-sm" style="padding: var(--space-4);">
+          <div style="display:flex; align-items:center; justify-content:space-between; gap: var(--space-3); flex-wrap:wrap; margin-bottom: var(--space-4);">
+            <div class="card-kicker" style="margin:0;">Bitacora &middot; {{ filteredCount }} de {{ totalEvents }} eventos</div>
+            <div style="display:flex; gap: var(--space-2); flex-wrap:wrap;">
+              <input class="input" style="width:220px;" placeholder="Buscar evento o ubicacion..." value="{{ search }}" onInput="{{ onSearch }}" />
+              <select class="input" style="width:170px;" value="{{ tipoFilter }}" onChange="{{ onTipoFilter }}">
+                <option value="">Todos los tipos</option>
+                <sc-for list="{{ tipoOptions }}" as="o" hint-placeholder-count="6">
+                  <option value="{{ o.value }}">{{ o.label }}</option>
+                </sc-for>
+              </select>
+              <select class="input" style="width:170px;" value="{{ pisoFilter }}" onChange="{{ onPisoFilter }}">
+                <option value="">Todas las ubicaciones</option>
+                <sc-for list="{{ pisoOptions }}" as="o" hint-placeholder-count="6">
+                  <option value="{{ o.value }}">{{ o.label }}</option>
+                </sc-for>
+              </select>
+            </div>
+          </div>
+          <div style="max-height: 560px; overflow:auto; border-radius: var(--radius-2);">
+            <table class="table" style="table-layout:fixed; width:100%;">
+              <colgroup>
+                <col style="width:100px;"><col style="width:74px;"><col style="width:56px;"><col style="width:130px;"><col style="width:150px;"><col>
+              </colgroup>
+              <thead>
+                <tr><th>Fecha</th><th>Hora</th><th>Dia</th><th>Tipo</th><th>Ubicacion</th><th>Evento</th></tr>
+              </thead>
+              <tbody hint-placeholder-count="20">
+                <sc-for list="{{ rows }}" as="r" hint-placeholder-count="20">
+                  <tr>
+                    <td class="text-muted" style="white-space:nowrap;">{{ r.fechaLabel }}</td>
+                    <td class="text-muted" style="white-space:nowrap;">{{ r.hora }}</td>
+                    <td class="text-muted" style="white-space:nowrap;">{{ r.dia }}</td>
+                    <td style="white-space:nowrap;"><span class="tag {{ r.tagCls }}" style="{{ r.tagStyle }} white-space:nowrap;">{{ r.tipoLabel }}</span></td>
+                    <td style="white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{{ r.ubicacionLabel }}</td>
+                    <td style="font-size:12px; opacity:0.85; word-break:break-word;">{{ r.evento }}</td>
+                  </tr>
+                </sc-for>
+              </tbody>
+            </table>
+            <sc-if value="{{ noResults }}" hint-placeholder-val="{{ false }}">
+              <div style="padding: var(--space-6); text-align:center; opacity:0.6; font-size:13px;">Sin resultados para estos filtros.</div>
+            </sc-if>
+          </div>
+        </div>
+      </div>
+    </sc-if>
+    <sc-if value="{{ notLoaded }}" hint-placeholder-val="{{ true }}">
+      <div style="opacity:0.5; padding: var(--space-8); text-align:center;">Cargando registro...</div>
+    </sc-if>
+  </div>
+
+  <div class="footer-bar">
+    <div class="brand">
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21V8l9-5 9 5v13"/><path d="M9 21v-6h6v6"/><path d="M9 12h.01M15 12h.01M9 8h.01M15 8h.01"/></svg>
+      Hospital Mauricio Heyermann Torres
+    </div>
+    <div class="tagline">Seguridad hoy, continuidad siempre</div>
+  </div>
+  <div style="text-align:center; padding: var(--space-3) 0 var(--space-5); opacity:0.4; font-size:11px;">
+    Elaborado por Ing. Juan Carlos Sandoval Sandoval
+  </div>
+
+</div>
+</sc-if>
+<sc-if value="{{ notAuthed }}" hint-placeholder-val="{{ true }}">
+<div class="login-screen">
+  <div class="card elev-sm login-card">
+    <img class="login-cover" src="img/portada-panel-alarmas.png" alt="Panel de Alarmas de Sistema de Detecci&oacute;n y Extinci&oacute;n de Incendio" />
+    <form class="login-form" onSubmit="{{ onLoginSubmit }}">
+      <div>
+        <div style="font-family:var(--font-heading); font-weight:600; font-size:18px;">Acceso al panel</div>
+        <div style="font-size:12px; opacity:0.6; margin-top:2px;">Ingresa tus credenciales para continuar</div>
+      </div>
+      <label class="login-field">
+        Usuario
+        <input class="input" value="{{ loginUser }}" onInput="{{ onLoginUser }}" autocomplete="username" />
+      </label>
+      <label class="login-field">
+        Contrase&ntilde;a
+        <input class="input" type="password" value="{{ loginPass }}" onInput="{{ onLoginPass }}" autocomplete="current-password" />
+      </label>
+      <sc-if value="{{ loginError }}" hint-placeholder-val="{{ false }}">
+        <div style="color:var(--color-alarm); font-size:12px;">Usuario o contrase&ntilde;a incorrectos.</div>
+      </sc-if>
+      <button class="btn-primary" type="submit" style="margin-top:var(--space-2); padding:10px; border-radius:var(--radius-2); border:1px solid var(--color-accent); font-weight:600; background:transparent; cursor:pointer;">Ingresar</button>
+    </form>
+  </div>
+</div>
+</sc-if>
+
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+const ICONS = {
+  list: '\u{1F4CB}',
+  bell: '\u{1F6A8}',
+  check: '✅',
+  warn: '⚠️',
+  refresh: '\u{1F504}',
+  mute: '\u{1F507}',
+};
+
+const DIAS_ES = { SUN: 'DOM', MON: 'LUN', TUE: 'MAR', WED: 'MIE', THU: 'JUE', FRI: 'VIE', SAT: 'SAB' };
+
+const MESES_CORTO = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+const TAG_ALARM_STYLE = 'background:color-mix(in oklab, var(--color-alarm) 20%, transparent); color:var(--color-alarm); border:1px solid color-mix(in oklab, var(--color-alarm) 55%, transparent); font-weight:600;';
+
+const LOGIN_USER = 'ControlCentralizado';
+const LOGIN_PASS = 'Control';
+
+class Component extends DCLogic {
+  state = { data: null, search: '', tipoFilter: '', pisoFilter: '', trendDays: '30', authed: false, loginUser: '', loginPass: '', loginError: false };
+
+  componentDidMount() {
+    this.loadData();
+    this._pollTimer = setInterval(() => this.loadData(), 5000);
+    try {
+      if (sessionStorage.getItem('panelAuthed') === '1') this.setState({ authed: true });
+    } catch (err) {}
+  }
+
+  componentWillUnmount() {
+    if (this._pollTimer) clearInterval(this._pollTimer);
+  }
+
+  loadData() {
+    fetch('data/alarmas.json?_=' + Date.now(), { cache: 'no-store' }).then(r => r.json()).then(data => {
+      const withPiso = data.map(d => ({ ...d, piso: this.pisoOf(d.ubicacion) }));
+      if (JSON.stringify(withPiso) !== JSON.stringify(this.state.data)) {
+        this.setState({ data: withPiso });
+      }
+    });
+  }
+
+  pisoOf(ubicacion) {
+    if (!ubicacion) return 'Panel principal';
+    if (ubicacion.startsWith('PISO 1')) return 'Piso 1';
+    if (ubicacion.startsWith('PISO 2')) return 'Piso 2';
+    if (ubicacion.startsWith('PISO 3')) return 'Piso 3';
+    if (ubicacion.startsWith('ZOCALO')) return 'Zocalo';
+    if (ubicacion.startsWith('SALA DE BOMBAS')) return 'Sala de bombas';
+    return 'Otro';
+  }
+
+  tipoMeta(tipo) {
+    const map = {
+      alarma: { label: 'Alarma de incendio', color: 'var(--color-alarm)', icon: ICONS.bell, tagCls: 'tag', tagStyle: TAG_ALARM_STYLE },
+      reconocida: { label: 'Reconocida', color: 'var(--color-ok)', icon: ICONS.check, tagCls: 'tag-neutral', tagStyle: '' },
+      falla: { label: 'Falla de datos', color: 'var(--color-warn)', icon: ICONS.warn, tagCls: 'tag-neutral', tagStyle: '' },
+      reset: { label: 'Reset de panel', color: 'var(--color-info)', icon: ICONS.refresh, tagCls: 'tag-neutral', tagStyle: '' },
+      silenciada: { label: 'Silenciada', color: 'var(--color-neutral-400)', icon: ICONS.mute, tagCls: 'tag-neutral', tagStyle: '' },
+      test: { label: 'Test anormal', color: 'var(--color-neutral-500)', icon: ICONS.warn, tagCls: 'tag-neutral', tagStyle: '' },
+    };
+    return map[tipo] || { label: tipo, color: 'var(--color-neutral-400)', icon: ICONS.list, tagCls: 'tag-neutral', tagStyle: '' };
+  }
+
+  fmtDate(iso) {
+    const [y, m, d] = iso.split('-');
+    return `${d} ${MESES_CORTO[+m - 1]}`;
+  }
+
+  fmtDateLong(iso) {
+    const [y, m, d] = iso.split('-');
+    return `${d} ${MESES_CORTO[+m - 1]} ${y}`;
+  }
+
+  periodDelta(data, isoStart, isoEnd, prevIsoStart, prevIsoEnd, tipo) {
+    const inRange = (d, a, b) => d.fecha >= a && d.fecha <= b;
+    const cur = data.filter(d => inRange(d, isoStart, isoEnd) && (!tipo || d.tipo === tipo)).length;
+    const prev = data.filter(d => inRange(d, prevIsoStart, prevIsoEnd) && (!tipo || d.tipo === tipo)).length;
+    let pct = null;
+    if (prev === 0) pct = cur > 0 ? 100 : 0;
+    else pct = Math.round((cur - prev) / prev * 100);
+    return { cur, pct };
+  }
+
+  renderVals() {
+    const loginFields = {
+      authed: this.state.authed,
+      notAuthed: !this.state.authed,
+      loginUser: this.state.loginUser,
+      onLoginUser: (e) => this.setState({ loginUser: e.target.value, loginError: false }),
+      loginPass: this.state.loginPass,
+      onLoginPass: (e) => this.setState({ loginPass: e.target.value, loginError: false }),
+      loginError: this.state.loginError,
+      onLoginSubmit: (e) => {
+        e.preventDefault();
+        if (this.state.loginUser === LOGIN_USER && this.state.loginPass === LOGIN_PASS) {
+          try { sessionStorage.setItem('panelAuthed', '1'); } catch (err) {}
+          this.setState({ authed: true, loginError: false });
+        } else {
+          this.setState({ loginError: true, loginPass: '' });
+        }
+      },
+    };
+
+    const data = this.state.data;
+    if (!data) return { loaded: false, notLoaded: true, ...loginFields };
+
+    const totalEvents = data.length;
+    const counts = {};
+    data.forEach(d => counts[d.tipo] = (counts[d.tipo] || 0) + 1);
+
+    const dates = data.map(d => d.fecha).sort();
+    const minDate = dates[0], maxDate = dates[dates.length - 1];
+    const dateRangeLabel = `${this.fmtDate(minDate)} – ${this.fmtDate(maxDate)}`;
+
+    // --- period-over-period deltas (last 30d vs previous 30d, relative to latest event) ---
+    const end = new Date(maxDate);
+    const curStart = new Date(end); curStart.setDate(curStart.getDate() - 29);
+    const prevEnd = new Date(curStart); prevEnd.setDate(prevEnd.getDate() - 1);
+    const prevStart = new Date(prevEnd); prevStart.setDate(prevStart.getDate() - 29);
+    const iso = d => d.toISOString().slice(0, 10);
+    const mkDelta = tipo => this.periodDelta(data, iso(curStart), iso(end), iso(prevStart), iso(prevEnd), tipo);
+    const deltaLbl = pct => pct > 0 ? { cls: 'up', label: `↑ +${pct}% vs. período anterior` } : pct < 0 ? { cls: 'down', label: `↓ ${pct}% vs. período anterior` } : { cls: 'flat', label: `= sin cambio vs. anterior` };
+
+    const kpiDefs = [
+      { key: null, label: 'Total eventos', color: 'var(--color-text)', icon: ICONS.list, iconBg: 'var(--color-neutral-800)' },
+      { key: 'alarma', label: 'Alarmas de incendio', color: 'var(--color-alarm)', icon: ICONS.bell, iconBg: 'color-mix(in oklab, var(--color-alarm) 18%, transparent)' },
+      { key: 'reconocida', label: 'Reconocidas', color: 'var(--color-ok)', icon: ICONS.check, iconBg: 'color-mix(in oklab, var(--color-ok) 18%, transparent)' },
+      { key: 'falla', label: 'Fallas de datos', color: 'var(--color-warn)', icon: ICONS.warn, iconBg: 'color-mix(in oklab, var(--color-warn) 18%, transparent)' },
+      { key: 'reset', label: 'Resets de panel', color: 'var(--color-info)', icon: ICONS.refresh, iconBg: 'color-mix(in oklab, var(--color-info) 18%, transparent)' },
+      { key: 'silenciada', label: 'Silenciadas', color: 'var(--color-neutral-300)', icon: ICONS.mute, iconBg: 'var(--color-neutral-800)' },
+    ];
+    const kpis = kpiDefs.map(def => {
+      const { pct } = mkDelta(def.key);
+      const dl = deltaLbl(pct);
+      return {
+        label: def.label,
+        value: def.key ? (counts[def.key] || 0) : totalEvents,
+        color: def.color,
+        icon: def.icon,
+        iconBg: def.iconBg,
+        deltaCls: dl.cls,
+        deltaLabel: dl.label,
+      };
+    });
+
+    // --- tipo summary + donut ---
+    const tipoOrder = ['alarma', 'reconocida', 'falla', 'reset', 'silenciada', 'test'];
+    const tipoOptions = tipoOrder.filter(t => counts[t]).map(t => ({ value: t, label: this.tipoMeta(t).label }));
+
+    const donutLegend = tipoOrder.filter(t => counts[t]).map(t => {
+      const meta = this.tipoMeta(t);
+      const c = counts[t];
+      return { color: meta.color, label: meta.label, count: c, pct: Math.round(c / totalEvents * 100) };
+    });
+
+    // --- ubicacion bars ---
+    const pisoCounts = {};
+    data.forEach(d => pisoCounts[d.piso] = (pisoCounts[d.piso] || 0) + 1);
+    const pisoList = Object.keys(pisoCounts).sort((a, b) => pisoCounts[b] - pisoCounts[a]);
+    const maxPiso = Math.max(...pisoList.map(p => pisoCounts[p]));
+    const pisoBars = pisoList.map(p => ({ label: p, count: pisoCounts[p], pct: Math.round(pisoCounts[p] / maxPiso * 100) }));
+    const pisoOptions = pisoList.map(p => ({ value: p, label: p }));
+
+    // --- trend chart (stacked alarma vs otros), filtered by selected range ---
+    const dayMap = {};
+    data.forEach(d => {
+      if (!dayMap[d.fecha]) dayMap[d.fecha] = { alarma: 0, otros: 0 };
+      if (d.tipo === 'alarma') dayMap[d.fecha].alarma++; else dayMap[d.fecha].otros++;
+    });
+    const rangeDays = this.state.trendDays === 'all' ? null : parseInt(this.state.trendDays, 10);
+    let trendStart = new Date(minDate);
+    if (rangeDays) {
+      trendStart = new Date(end);
+      trendStart.setDate(trendStart.getDate() - (rangeDays - 1));
+      if (trendStart < new Date(minDate)) trendStart = new Date(minDate);
+    }
+    const trend = [];
+    for (let dt = new Date(trendStart); dt <= end; dt.setDate(dt.getDate() + 1)) {
+      const isoD = dt.toISOString().slice(0, 10);
+      const c = dayMap[isoD] || { alarma: 0, otros: 0 };
+      trend.push({ date: isoD, alarma: c.alarma, otros: c.otros, total: c.alarma + c.otros, title: `${this.fmtDate(isoD)}: ${c.alarma + c.otros}` });
+    }
+    const maxDay = Math.max(...trend.map(t => t.total), 1);
+    trend.forEach(t => {
+      t.alarmaPct = Math.max(Math.round(t.alarma / maxDay * 100), t.alarma > 0 ? 4 : 0);
+      t.otrosPct = Math.max(Math.round(t.otros / maxDay * 100), t.otros > 0 ? 4 : 0);
+    });
+    const trendLastLabel = trend[trend.length - 1].title;
+    const trendRangeLabel = `${this.fmtDate(trend[0].date)} – ${this.fmtDate(maxDate)}`;
+
+    // --- table ---
+    const search = this.state.search.trim().toLowerCase();
+    let filtered = data.filter(d => {
+      if (this.state.tipoFilter && d.tipo !== this.state.tipoFilter) return false;
+      if (this.state.pisoFilter && d.piso !== this.state.pisoFilter) return false;
+      if (search && !d.evento.toLowerCase().includes(search) && !(d.ubicacion || '').toLowerCase().includes(search)) return false;
+      return true;
+    });
+    filtered = filtered.slice().reverse();
+
+    const rows = filtered.map(d => {
+      const meta = this.tipoMeta(d.tipo);
+      return {
+        id: d.id,
+        fechaLabel: this.fmtDateLong(d.fecha),
+        hora: d.hora,
+        dia: DIAS_ES[d.dia] || d.dia,
+        tipoLabel: meta.label,
+        tagCls: meta.tagCls,
+        tagStyle: meta.tagStyle,
+        ubicacionLabel: d.piso,
+        evento: d.evento,
+      };
+    });
+
+    return {
+      loaded: true,
+      notLoaded: false,
+      ...loginFields,
+      dateRangeLabel,
+      totalEvents,
+      kpis,
+      trend,
+      trendLastLabel,
+      trendRangeLabel,
+      trendDays: this.state.trendDays,
+      onTrendDays: (e) => this.setState({ trendDays: e.target.value }),
+      tipoOptions,
+      donutLegend,
+      pisoBars,
+      pisoOptions,
+      search: this.state.search,
+      onSearch: (e) => this.setState({ search: e.target.value }),
+      tipoFilter: this.state.tipoFilter,
+      onTipoFilter: (e) => this.setState({ tipoFilter: e.target.value }),
+      pisoFilter: this.state.pisoFilter,
+      onPisoFilter: (e) => this.setState({ pisoFilter: e.target.value }),
+      filteredCount: rows.length,
+      noResults: rows.length === 0,
+      rows,
+    };
+  }
+}
+</script>
+</body>
+</html>
